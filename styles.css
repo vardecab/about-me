@@ -1,0 +1,142 @@
+/* fonts */
+
+@font-face {
+    /* JeteBrains Mono → https://www.jetbrains.com/lp/mono/ */
+    font-family: "JetBrainsMono";
+    src: url("fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
+}
+
+@font-face {
+    /* Mali → https://fonts.google.com/specimen/Mali */
+    font-family: "Mali";
+    src: url("fonts/Mali/Mali-Regular.woff");
+}
+
+header {
+    margin-bottom: 2em;
+}
+
+@media only screen and (min-width: 574px) {
+    header {
+        margin-bottom: 3.5em;
+    }
+}
+
+header nav a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 574px) {
+    header nav a:first-child {
+        display: none;
+    }
+
+    header nav a {
+        font-size: 0.7rem !important;
+    }
+
+    ul {
+        margin-left: -8% !important;
+    }
+}
+
+#logo {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    margin-left: -4%;
+    margin-top: -0%;
+}
+
+header nav a+a {
+    margin-left: 1.5em;
+}
+
+@media only screen and (max-width: 574px) {
+    header nav a+a {
+        margin-left: 1em;
+    }
+}
+
+header #active {
+    border-bottom: 5px solid #ffdf3b;
+}
+
+body {
+    background: #f3f3f3;
+    font-family: "JetBrainsMono", monospace;
+    color: #565656;
+    line-height: 1.5;
+    margin: 0;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 0.9rem;
+}
+
+#wrapper {
+    padding: 10px 25px 40px;
+    max-width: 800px;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: right;
+}
+
+@media only screen and (min-width: 574px) {
+    #wrapper {
+        padding: 40px 10%;
+    }
+}
+
+a {
+    color: currentColor;
+}
+
+::selection {
+    background-color: #ffdf3b;
+    color: #000;
+}
+
+.socialmedia a {
+    text-decoration: none;
+    border-bottom: 5px solid #ffdf3b;
+}
+
+ul a {
+    text-decoration: none;
+    border-bottom: 2px solid #ffdf3b;
+}
+
+#experience a {
+    border: none;
+    text-decoration: underline;
+}
+
+#name,
+.highlight {
+    background-color: #ffdf3b;
+}
+
+.smaller {
+    font-size: 0.7rem;
+}
+
+#on {
+    /* background-color: green; */
+    /* color: #fff; */
+    color: #00e673;
+
+}
+
+#off {
+    /* background-color: #ff7676; */
+    /* color: #fff; */
+    color: #ff3b3b;
+}
