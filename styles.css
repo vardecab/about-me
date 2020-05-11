@@ -124,6 +124,13 @@ ul a {
     background-color: #ffdf3b;
 }
 
+.highlightDark {
+    background-color: #565656;
+    color: #f3f3f3;
+    border-radius: 25px;
+    font-size: 0.7rem;
+}
+
 .smaller {
     font-size: 0.7rem;
 }
