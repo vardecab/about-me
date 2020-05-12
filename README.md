@@ -4,3 +4,4 @@
 -   0.1.1: Added missing URLs.
 - 0.2: Added some content, fixed `hobbies` layout.
 - 0.2.1: Added Google Search Console.
+- 0.2.2: Tiny fix to URL underlining.
