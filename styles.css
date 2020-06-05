@@ -1,7 +1,7 @@
 /* fonts */
 
 @font-face {
-    /* JeteBrains Mono → https://www.jetbrains.com/lp/mono/ */
+    /* JetBrains Mono → https://www.jetbrains.com/lp/mono/ */
     font-family: "JetBrainsMono";
     src: url("fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
 }
@@ -41,8 +41,16 @@ header nav a {
     }
 }
 
+h1 > a {
+    text-decoration: none;
+}
+
 #logo {
     text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 1.25em;
+    padding-bottom: 0.2em;
 }
 
 ul {
@@ -51,12 +59,12 @@ ul {
     margin-top: -0%;
 }
 
-header nav a+a {
+header nav a + a {
     margin-left: 1.5em;
 }
 
 @media only screen and (max-width: 574px) {
-    header nav a+a {
+    header nav a + a {
         margin-left: 1em;
     }
 }
@@ -82,11 +90,12 @@ body {
 }
 
 footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: right;
+    position: relative;
+    /* position: fixed; */
+    /* left: 0; */
+    /* bottom: 0; */
+    /* width: 100%; */
+    /* text-align: right; */
 }
 
 @media only screen and (min-width: 574px) {
@@ -135,11 +144,33 @@ ul a {
     font-size: 0.7rem;
 }
 
-#on {
+.on {
     color: #00e673;
-
 }
 
-#off {
+.off {
     color: #ff3b3b;
+}
+
+/* shape divider experiment */
+
+.custom-shape-divider-bottom-1591393761 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591393761 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 125px;
+}
+
+.custom-shape-divider-bottom-1591393761 .shape-fill {
+    fill: #ffdf3b;
 }
