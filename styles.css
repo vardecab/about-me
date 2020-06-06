@@ -91,11 +91,6 @@ body {
 
 footer {
     position: relative;
-    /* position: fixed; */
-    /* left: 0; */
-    /* bottom: 0; */
-    /* width: 100%; */
-    /* text-align: right; */
 }
 
 @media only screen and (min-width: 574px) {

@@ -11,7 +11,7 @@
 
 ## Acknowledgements
 
-- Concept from [Thom](https://www.thomkrupa.com/)
+- Inspired by [Thom's website](https://www.thomkrupa.com/)
 - [Shape divider](https://www.shapedivider.app/)
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
 - [HTML Formatter](https://webformatter.com/html)
