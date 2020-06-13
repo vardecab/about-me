@@ -6,10 +6,18 @@
     src: url("fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
 }
 
-@font-face {
-    /* Mali → https://fonts.google.com/specimen/Mali */
-    font-family: "Mali";
-    src: url("fonts/Mali/Mali-Regular.woff");
+/* palette */
+
+:root {
+    --light-background: #f3f3f3;
+    --dark-background: #252525;
+    --accent: #ffdf3b;
+    --font: "JetBrainsMono", monospace;
+    --light-background-font: #565656;
+    --dark-background-font: #f3f3f3;
+    --dark-background-highlight: #252525;
+    --on: #00e673;
+    --off: #ff3b3b;
 }
 
 header {
@@ -70,13 +78,13 @@ header nav a + a {
 }
 
 header #active {
-    border-bottom: 5px solid #ffdf3b;
+    border-bottom: 5px solid var(--accent);
 }
 
 body {
-    background: #f3f3f3;
-    font-family: "JetBrainsMono", monospace;
-    color: #565656;
+    background: var(--light-background);
+    font-family: var(--font);
+    color: var(--light-background-font);
     line-height: 1.5;
     margin: 0;
     -webkit-font-smoothing: antialiased;
@@ -86,11 +94,8 @@ body {
 
 #wrapper {
     padding: 10px 25px 40px;
-    max-width: 800px;
-}
-
-footer {
-    position: relative;
+    max-width: 777px;
+    text-align: justify;
 }
 
 @media only screen and (min-width: 574px) {
@@ -99,23 +104,43 @@ footer {
     }
 }
 
+@media only screen and (max-width: 574px) {
+    #wrapper {
+        text-align: left;
+    }
+}
+
+#headline {
+    text-align: left;
+}
+
+footer {
+    position: relative;
+}
+
+/* Larger than Desktop HD */
+@media (min-width: 1600px) {
+    footer {
+        margin-top: 1%; /* offset white stripe under shape divider */
+    }
+}
+
 a {
     color: currentColor;
 }
 
 ::selection {
-    background-color: #ffdf3b;
-    color: #000;
+    background-color: var(--accent);
 }
 
 .socialmedia a {
     text-decoration: none;
-    border-bottom: 5px solid #ffdf3b;
+    border-bottom: 5px solid var(--accent);
 }
 
 ul a {
     text-decoration: none;
-    border-bottom: 2px solid #ffdf3b;
+    border-bottom: 2px solid var(--accent);
 }
 
 #experience a {
@@ -125,12 +150,12 @@ ul a {
 
 #name,
 .highlight {
-    background-color: #ffdf3b;
+    background-color: var(--accent);
 }
 
 .highlightDark {
-    background-color: #565656;
-    color: #f3f3f3;
+    background-color: var(--light-background-font);
+    color: var(--light-background);
     border-radius: 25px;
     font-size: 0.7rem;
 }
@@ -140,12 +165,41 @@ ul a {
 }
 
 .on {
-    color: #00e673;
+    color: var(--on);
 }
 
 .off {
-    color: #ff3b3b;
+    color: var(--off);
 }
+
+/* dark mode */
+
+/* .floater {
+	position:fixed;
+	width:50px;
+	height:50px;
+	bottom:30px;
+	right:30px;
+	background-color: var(--dark-background);
+	border-radius:50px;
+    border: transparent;
+    z-index : 1;
+    outline: none;
+}
+
+button i { 
+    color: var(--dark-background-font);
+    font-size: 1.5rem;
+}
+
+.dark-mode {
+    background-color: var(--dark-background);
+    color: var(--dark-background-font);
+}
+
+.dark-mode .highlight {
+    color: var(--dark-background-highlight);
+} */
 
 /* shape divider experiment */
 
@@ -167,5 +221,5 @@ ul a {
 }
 
 .custom-shape-divider-bottom-1591393761 .shape-fill {
-    fill: #ffdf3b;
+    fill: var(--accent);
 }

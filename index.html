@@ -15,14 +15,15 @@
         <link rel="icon" type="image/png" href="icons/nerd-custom.png" />
         <link rel="stylesheet" href="styles.min.css" />
         <link rel="stylesheet" href="icons/css/all.css" />
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script> --> <!-- dark mode -->
         <meta name="google-site-verification" content="i1DP0y-LoEEp9C0m5yxmZ2ZVn7mn1Bp8Aq7VaqIENGo" />
     </head>
 
     <body>
         <div id="wrapper">
-            <header>
+            <header id="top">
                 <h1>
-                    <a href="index.html">Kuba Rdzak <img id="logo" src="./icons/nerd-custom.png" alt="Emoji-like icon displaying a nerd, 🤓" /></a>
+                    <a href="index.html">Kuba Rdzak <img id="logo" src="./icons/nerd-custom.png" alt="Emoji-like icon displaying a nerd, 🤓"/></a>
                 </h1>
                 <nav>
                     <a href="index.html" id="active">intro</a>
@@ -39,57 +40,28 @@
                     // happy human, experienced growth marketer & manager. Head of Paid Social @ Ladder Digital¹.
                 </h2>
 
-                I have background in various industries eg:
+                I've worked with clients² from various industries eg:
                 <span class="highlight">mobile apps, fintech, e-commerce</span>
-                and helped our clients² scale on multiple ad platforms:
-                <ul>
-                    <li>
-                        <i class="fab fa-facebook"></i>
-                        Facebook + Instagram Ads
-                    </li>
-                    <li>
-                        <i class="fab fa-google"></i>
-                        Google Ads (including
-                        <i class="fab fa-google-play"></i>
-                        UAC)
-                    </li>
-                    <li>
-                        <i class="fab fa-linkedin-in"></i>
-                        LinkedIn Ads
-                    </li>
-                    <li>
-                        <i class="fab fa-app-store-ios"></i>
-                        Apple Search Ads
-                    </li>
-                    <li>
-                        <i class="fab fa-twitter"></i>
-                        Twitter Ads
-                    </li>
-                    <li>
-                        <i class="fab fa-snapchat-ghost"></i>
-                        Snapchat Ads
-                    </li>
-                    <li>
-                        <i class="fab fa-pinterest"></i>
-                        Pinterest Ads
-                    </li>
-                </ul>
+                and helped them scale on multiple ad platforms: <i title="Facebook Ads + Instagram Ads" class="fab fa-facebook"></i> <i title="Google Ads" class="fab fa-google"></i> <i title="Google Ads: Universal App Campaigns" class="fab fa-google-play"></i> <i title="LinkedIn Ads" class="fab fa-linkedin-in"></i> <i title="Apple Search Ads" class="fab fa-app-store-ios"></i> <i title="Twitter Ads" class="fab fa-twitter"></i> <i title="Snapchat Ads" class="fab fa-snapchat-ghost"></i> <i title="Pinterest Ads" class="fab fa-pinterest"></i>.
+                
+                <br>
                 <br>
                 I have a good understanding of technical aspects like
                 <span class="highlight"> APIs, front web dev</span> (I even did <i>this</i> website myself and also <a href="https://vardecab.github.io/umbrella/umbrella.html" target="_blank">that one</a>),
-                <span class="highlight">tracking, CRO, web analytics</span> and <span class="highlight">automations</span>. Serious geek on multiple fronts 🤖
+                <span class="highlight">tracking, CRO, web analytics</span> and <span class="highlight">automations</span>. Serious geek on multiple fronts.
 
                 <br>
                 <br>
+                ——
                 <p class="footnote">¹Award-Winning Growth Marketing Agency</p>
                 <p>
-                    ²I had an opportunity to help companies small and big, including
+                    ²I had a great opportunity to help companies both small and big, including
                     <span class="highlight"> Fortune 500</span> and <span class="highlight">Y Combinator</span>
                     ones. For example:
                     <span class="highlight"> Booking.com, Nestlé, Credit Suisse, Monzo Bank, Criteo, MidFirst Bank, Time Out Group, Jewel Commerce</span>.
                 </p>
                 <br>
-                <h3>Let's connect</h3>
+                <h3 id="contact">Let's connect</h3>
                 <p class="socialmedia">
                     <i class="fab fa-facebook-messenger"></i>
                     <a href="https://m.me/kubardzak" target="_blank">Messenger</a>
@@ -107,6 +79,22 @@
                     <a href="https://www.instagram.com/disfrutolavido/" target="_blank">Instagram</a>
                 </p>
             </div>
+        <!-- dark mode -->
+        <!-- <button onclick="darkMode()" id="darkMode" title="Switch themes!"><i id="icon" class="fas fa-moon"></i></button>
+        <script>
+            function darkMode() {
+                var element = document.body;
+                element.classList.toggle("dark-mode");
+
+                var icon = $(document.getElementById("icon"));
+                if (icon.hasClass("fas fa-moon")) {
+                    icon.removeClass().addClass("fas fa-lightbulb");
+                } else if (icon.hasClass("fas fa-lightbulb")) {
+                    icon.removeClass("fas fa-lightbulb").addClass("fas fa-moon");
+                }
+            }
+
+        </script> -->
         </div>
         <footer>
             <br>
@@ -130,14 +118,6 @@
                     <path d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z" class="shape-fill"></path>
                 </svg>
             </div>
-
-            <!-- <p>
-					Inspired by
-					<a href="https://www.thomkrupa.com" target="_blank"
-						>https://www.thomkrupa.com</a
-                    >
-                    Thanks!
-				</p> -->
         </footer>
     </body>
 </html>
