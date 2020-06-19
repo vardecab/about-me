@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.4.1: Changed Instagram URL.
 - 0.4: Improved readability + prep for dark mode.
 - 0.3: Changed main icon, favicon, added shape divider, ran code through validator (W3C standards), changed text here and there.
 - 0.2.2: Tiny fix to URL underlining.
