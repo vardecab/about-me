@@ -9,15 +9,16 @@
 /* palette */
 
 :root {
-    --light-background: #f3f3f3;
-    --dark-background: #252525;
     --accent: #ffdf3b;
     --font: "JetBrainsMono", monospace;
+    --light-background: #f3f3f3;
     --light-background-font: #565656;
+    --dark-background: #252525;
     --dark-background-font: #f3f3f3;
     --dark-background-highlight: #252525;
     --on: #00e673;
     --off: #ff3b3b;
+    --scrollbar-track: #ebebeb;
 }
 
 header {
@@ -115,13 +116,21 @@ body {
 }
 
 footer {
-    position: relative;
+    position: absolute;
+    width: 100%;
 }
 
 /* Larger than Desktop HD */
-@media (min-width: 1600px) {
+@media only screen and (min-width: 1600px) {
     footer {
-        margin-top: 1%; /* offset white stripe under shape divider */
+        /* bottom: 0; */
+    }
+}
+
+/* iPad Pro */
+@media only screen and (min-height: 1300px) {
+    footer {
+        /* bottom: 0; */
     }
 }
 
@@ -201,7 +210,7 @@ button i {
     color: var(--dark-background-highlight);
 } */
 
-/* shape divider experiment */
+/* shape divider */
 
 .custom-shape-divider-bottom-1591393761 {
     position: absolute;
@@ -223,3 +232,45 @@ button i {
 .custom-shape-divider-bottom-1591393761 .shape-fill {
     fill: var(--accent);
 }
+
+/* custom scrollbar */
+
+/* The emerging W3C standard that is currently Firefox-only */
+* {
+    scrollbar-width: 10px;
+    scrollbar-color: var(--accent) var(--scrollbar-track);
+}
+  
+/* Works on WebKit (Chrome/Edge/Safari) */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--scrollbar-track);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: var(--accent);
+    border-radius: 7px;
+}
+
+/* breakpoints */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (min-width: 1200px) {}
+
+/* landscape */
+@media only screen and (orientation: landscape) {}

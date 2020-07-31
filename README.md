@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.5: Custom scrollbar, added dark mode, changed some text, added certificates.
 - 0.4.2: Some text changes.
 - 0.4.1: Changed Instagram URL.
 - 0.4: Improved readability + prep for dark mode.
