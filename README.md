@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.5.2: SEO fixes.
 - 0.5.1: Added quick links to relevant sections.
 - 0.5: Custom scrollbar, changed text, added certificates
 - 0.4.2: Some text changes.
