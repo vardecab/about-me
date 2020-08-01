@@ -21,4 +21,4 @@
 - [Shape divider](https://www.shapedivider.app/)
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
 - [HTML Formatter](https://webformatter.com/html)
-- Fonts used: [Mali](https://fonts.google.com/specimen/Mali) & [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
