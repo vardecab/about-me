@@ -2,9 +2,10 @@
 
 ## Release History
 
+- 0.6: Dark Mode 2.0 - based on sunset in user's location.
 - 0.5.2: SEO fixes.
 - 0.5.1: Added quick links to relevant sections.
-- 0.5: Custom scrollbar, changed text, added certificates
+- 0.5: Custom scrollbar, changed text, added certificates, dark mode between 21:00 & 6:00.
 - 0.4.2: Some text changes.
 - 0.4.1: Changed Instagram URL.
 - 0.4: Improved readability + prep for dark mode.
@@ -21,4 +22,7 @@
 - [Shape divider](https://www.shapedivider.app/)
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
 - [HTML Formatter](https://webformatter.com/html)
+- [XML-Sitemaps](https://www.xml-sitemaps.com/)
+- [GeoIPLookup.io API](https://geoiplookup.io/)
+- [Sunrise Sunset API](https://sunrise-sunset.org/api)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)

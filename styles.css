@@ -113,6 +113,7 @@ body {
 
 #headline {
     text-align: left;
+    font-size: 1.1rem;
 }
 
 footer {
@@ -180,35 +181,6 @@ ul a {
 .off {
     color: var(--off);
 }
-
-/* dark mode */
-
-/* .floater {
-	position:fixed;
-	width:50px;
-	height:50px;
-	bottom:30px;
-	right:30px;
-	background-color: var(--dark-background);
-	border-radius:50px;
-    border: transparent;
-    z-index : 1;
-    outline: none;
-}
-
-button i { 
-    color: var(--dark-background-font);
-    font-size: 1.5rem;
-}
-
-.dark-mode {
-    background-color: var(--dark-background);
-    color: var(--dark-background-font);
-}
-
-.dark-mode .highlight {
-    color: var(--dark-background-highlight);
-} */
 
 /* shape divider */
 
