@@ -231,7 +231,7 @@ ul a {
 
 /* a[target="_blank"]:after { */
 a.external:after {
-    content: url(/icons/external-link.png);
+    content: url(../icons/external-link.png);
     margin: 0 0 0 5px;
 }
 
