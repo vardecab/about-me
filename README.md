@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.6.3: Small text changes.
 - 0.6.2: Added external link icon. Changed headline.
 - 0.6.1: Updated descriptions. 
 - 0.6: Dark Mode 2.0 - based on sunset in user's location.
