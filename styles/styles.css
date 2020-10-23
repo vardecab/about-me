@@ -99,6 +99,10 @@ body {
     text-align: justify;
 }
 
+#responsibilities {
+    text-align: left;
+}
+
 @media only screen and (min-width: 574px) {
     #wrapper {
         padding: 40px 10%;
