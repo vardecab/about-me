@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.7: Turned off dark mode & highlight; edited some text.
 - 0.6.4: Added some text here and there.
 - 0.6.3: Small text changes.
 - 0.6.2: Added external link icon. Changed headline.
