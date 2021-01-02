@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.8.1: Fix for dark highlights.
 - 0.8 Removed `learn-more` page; edited some text; reorganized sections.
 - 0.7.1: Added `theme-color` for Chromium-based browsers.
 - 0.7: Turned off dark mode & highlight; edited some text.

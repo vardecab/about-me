@@ -170,17 +170,17 @@ ul a {
     text-decoration: underline;
 }
 
-/* #name, */
-/* .highlight { */
-    /* background-color: var(--accent); */
-/* } */
+/* #name, 
+.highlight { 
+    background-color: var(--accent);
+} */
 
-/* .highlightDark {
+.highlightDark {
     background-color: var(--light-background-font);
     color: var(--light-background);
     border-radius: 25px;
     font-size: 0.7rem;
-} */
+}
 
 .smaller {
     font-size: 0.7rem;
