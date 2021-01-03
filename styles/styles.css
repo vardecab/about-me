@@ -107,7 +107,7 @@ body {
     color: var(--accent);
 } */
 
-#on-site, #online {
+#on-site, #online, .italic {
     font-style: italic;
 }
 
