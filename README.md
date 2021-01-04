@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.10: Added categories to Toolstack section; edited text.
 - 0.9: Edited text; removed unnecessary files.
 - 0.8.1: Fix for dark highlights.
 - 0.8 Removed `learn-more` page; edited some text; reorganized sections.
