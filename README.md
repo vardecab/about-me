@@ -37,7 +37,8 @@
 - [Shape divider](https://www.shapedivider.app/)
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
 - [HTML Formatter](https://webformatter.com/html)
-- [XML-Sitemaps](https://www.xml-sitemaps.com/)
-- [GeoIPLookup.io API](https://geoiplookup.io/)
-- [Sunrise Sunset API](https://sunrise-sunset.org/api)
-- Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
+- Sitemap for Google Search Console created with: [XML-Sitemaps](https://www.xml-sitemaps.com/)
+- Icons used: [Font Awesome](https://fontawesome.com/)
+- Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
+<!-- - [GeoIPLookup.io API](https://geoiplookup.io/) -->
+<!-- - [Sunrise Sunset API](https://sunrise-sunset.org/api) -->
