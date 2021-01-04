@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.13.1: Added `og:` tags to all subpages; added font source; changed case in page titles; added some more tools to Toolstack section.
 - 0.13: Added new font for header/logo, changed `og:image`. 
 - 0.12: Added `og:image`.
 - 0.11: Added another section to the Experience tab.
