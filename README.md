@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.13: Added new font for header/logo, changed `og:image`. 
 - 0.12: Added `og:image`.
 - 0.11: Added another section to the Experience tab.
 - 0.10.1: Tiny text edit. Added an easter egg 👀

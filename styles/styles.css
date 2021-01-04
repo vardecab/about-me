@@ -5,6 +5,11 @@
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
 }
+@font-face {
+    /* JetBrains Mono → https://www.jetbrains.com/lp/mono/ */
+    font-family: "Sweeneey";
+    src: url("../fonts/Sweeneey/sweeneey.woff");
+}
 
 /* palette */
 
@@ -51,6 +56,7 @@ header nav a {
 }
 
 h1 > a {
+    font-family: 'Sweeneey';
     text-decoration: none;
 }
 
@@ -59,7 +65,7 @@ h1 > a {
     display: inline-block;
     vertical-align: middle;
     width: 1.25em;
-    padding-bottom: 0.2em;
+    padding-bottom: 0.5em; /* *NOTE 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 }
 
 ul {
