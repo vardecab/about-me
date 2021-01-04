@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.14.1: RWD fix.
 - 0.14: Added "Everything else" section to Hobbies tab; improved logo placement for HDPI; edited some text.
 - 0.13.1: Added `og:` tags to all subpages; added font source; changed case in page titles; added some more tools to Toolstack section.
 - 0.13: Added new font for header/logo, changed `og:image`. 
