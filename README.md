@@ -3,7 +3,7 @@
 ## Release History
 
 - 0.11: Added another section to the Experience tab.
-- 0.10.1: Tiny text edit.
+- 0.10.1: Tiny text edit. Added an easter egg 👀
 - 0.10: Added categories to Toolstack section; edited text.
 - 0.9: Edited text; removed unnecessary files.
 - 0.8.1: Fix for dark highlights.
