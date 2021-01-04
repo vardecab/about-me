@@ -70,13 +70,6 @@ h1 > a {
     padding-bottom: 0.5em; /* *NOTE 0.2em for JetBrainsMono, 0.5em for Sweeneey */  
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio : 1.5), only 
-screen and (min-device-pixel-ratio : 1.5) { 
-    #logo {
-        padding-bottom: 0.2em;
-    }
- }
-
 ul {
     list-style: none;
     margin-left: -4%;
