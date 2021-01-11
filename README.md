@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.14.4: Added a new certificate. 
 - 0.14.3: Added a new certificate. 
 - 0.14.2: A wild workaround to fix padding issue for smiley logo on a MacBook.
 - 0.14.1: RWD fix.
