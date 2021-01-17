@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.16: Added a smooth "scroll-to-top" functionality by clicking the yellow divider at the bottom of a page.
 - 0.15: Unhid "intro" in `nav` on mobile; edits to "Education" page; removed border for books' URLs; added `ongoing` badge.  
 - 0.14.5: Added a new certificate. 
 - 0.14.4: Added a new certificate. 

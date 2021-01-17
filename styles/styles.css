@@ -29,6 +29,10 @@
     --scrollbar-track: #ebebeb;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     margin-bottom: 2em;
 }
