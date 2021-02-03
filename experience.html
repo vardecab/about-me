@@ -22,7 +22,11 @@
         <meta name="theme-color" content="#ffdf3b" />
         <!-- external files -->
         <link rel="stylesheet" href="styles/styles.css" />
-        <link rel="stylesheet" href="icons/css/all.css" />
+        <!-- <link rel="preload" href="styles/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+        <!-- <noscript><link rel="stylesheet" href="styles/styles.css"></noscript> -->
+        <!-- <link rel="stylesheet" href="icons/css/all.css" /> -->
+        <link rel="preload" href="icons/css/all.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="icons/css/all.css"></noscript>
         <!-- <script src="scripts/libraries/jquery-3.5.1.min.js"></script> dark mode -->
         <!-- <script src="scripts/DarkMode.js"></script> -->
         <style>
