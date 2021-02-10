@@ -122,10 +122,11 @@ header nav a + a {
     }
 }
 
-/* nav > a:nth-child(4) {
-    /* -webkit-transform: rotate(-180deg);  */
-    /* transform: rotate(-180deg);  */
-/* } */ 
+/* rotate 'hobbies' 
+nav > a:nth-child(4) {
+    -webkit-transform: rotate(-180deg);  
+    transform: rotate(-180deg);  
+} */
 
 header #active {
     border-bottom: 5px solid var(--accent);
@@ -140,10 +141,6 @@ ul {
 #responsibilities {
     text-align: left;
 }
-
-/* i {
-    color: var(--accent);
-} */
 
 #on-site, #online, .italic {
     font-style: italic;
@@ -178,6 +175,8 @@ a.external:after {
     }
 }
 
+/* selection */ 
+
 ::selection {
     background-color: var(--accent);
 }
@@ -187,6 +186,39 @@ a.external:after {
         color: var(--dark-background);
     }
 }
+
+/* tooltips */
+
+.tooltip {
+    text-decoration: none;
+    vertical-align: super;
+    font-size: 65%;
+    background: var(--accent);
+    background-clip: content-box;
+}
+
+#t-one, #t-two, #t-three {
+    vertical-align: super;
+    font-size: 65%;
+    background: var(--accent);
+    background-clip: content-box;
+}
+
+@media (prefers-color-scheme: dark) {
+    .tooltip {
+        color: var(--accent);   
+        background-clip: unset; /* reset */
+        background: none; /* reset */
+    }
+
+    #t-one, #t-two, #t-three {
+        color: var(--accent);
+        background-clip: unset; /* reset */
+        background: none; /* reset */
+    }
+}
+
+/* 'Let's connect' section styling */
 
 .socialmedia a {
     text-decoration: none;
