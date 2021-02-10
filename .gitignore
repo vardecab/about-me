@@ -1,12 +1,19 @@
+# old files
+_old
+icons/nerd.png
+
+# misc
 .DS_Store
 .vscode
-icons/nerd.png
 TODO
+
+# fonts
 fonts/Mali
 fonts/Arvo
 fonts/JetBrainsMono
 fonts/Mali
 learn-more.html
-_old
+
+# sections re-write
 index-sections.html
 styles/styles-sections.css
