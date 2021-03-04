@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.17.3: Edited text.
 - 0.17.2: Added a quote; narrowed the `#wrapper`.
 - 0.17.1: Re-styled tooltips; tweaked text in two places; switched to minified versions of CSS files.
 - 0.17: Re-added dark mode based on user's OS settings.
