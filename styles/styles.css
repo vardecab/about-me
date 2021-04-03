@@ -240,7 +240,22 @@ ul a {
     background-color: var(--accent);
 } */
 
-.highlightDark {
+.highlight2 {
+    background-color: var(--accent);
+}
+
+@media (prefers-color-scheme: dark) {
+    .highlight2 {
+        background-color: var(--accent);
+        color: var(--light-background-font);
+    }
+
+    .highlight2 > a.external:after {
+        color: var(--light-background-font);
+    }
+}
+
+.certificateIssuer {
     background-color: var(--light-background-font);
     color: var(--light-background);
     border-radius: 25px;
@@ -248,7 +263,7 @@ ul a {
 }
 
 @media (prefers-color-scheme: dark) {
-    .highlightDark {
+    .certificateIssuer {
         background-color: var(--dark-background-font);
         color: var(--dark-background);
         border-radius: 25px;

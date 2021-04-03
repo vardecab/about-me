@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.18.1: Re-named and re-styled a few things.
 - 0.18: Added GrowthMentor.
 - 0.17.3: Edited text.
 - 0.17.2: Added a quote; narrowed the `#wrapper`.
