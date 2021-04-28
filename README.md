@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.18.4: Added a note about being a Goodreads Librarian.
 - 0.18.3: Updated Ladder URLs.
 - 0.18.2: Updated GrowthMentor URLs to include affiliate piece. 
 - 0.18.1: Re-named and re-styled a few things.
