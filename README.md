@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.18.6: Removed some books, added a few and added a piece about being a Wikipedian.
 - 0.18.5: Removed a book.
 - 0.18.4: Added a note about being a Goodreads Librarian.
 - 0.18.3: Updated Ladder URLs.
