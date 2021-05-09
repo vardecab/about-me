@@ -2,6 +2,7 @@
 
 ## Release History
 
+- 0.19: Added Recommendations tab; added Telegram; changed dividers; removed some tools 
 - 0.18.6: Removed some books, added a few and added a piece about being a Wikipedian.
 - 0.18.5: Removed a book.
 - 0.18.4: Added a note about being a Goodreads Librarian.
@@ -45,7 +46,7 @@
 - 0.4: Improved readability + prep for dark mode.
 - 0.3: Changed main icon, favicon, added shape divider, ran code through validator (W3C standards), changed text here and there.
 - 0.2.2: Tiny fix to URL underlining.
-- 0.2.1: Added Google Search Console.
+- 0.2.1: Added Google Search Console tag.
 - 0.2: Added some content, fixed `hobbies` layout.
 - 0.1.1: Added missing URLs.
 - 0.1: Initial release.
