@@ -1,5 +1,7 @@
 # My personal website 
 
+![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
+
 ## Release History
 
 - 0.19.1: Added a couple of things to Hobbies.
