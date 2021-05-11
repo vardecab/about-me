@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.19.2: Added a new review; fixed typo.
 - 0.19.1: Added a couple of things to Hobbies.
 - 0.19: Added Recommendations tab; added Telegram; changed dividers; removed some tools 
 - 0.18.6: Removed some books, added a few and added a piece about being a Wikipedian.
