@@ -4,12 +4,135 @@
     /* JetBrains Mono → https://www.jetbrains.com/lp/mono/ */
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
-} 
+}
 
 @font-face {
     /* Sweeney → https://pixlr.com/stock/details/100400577-sweeney-font-family/ */
     font-family: "Sweeneey";
     src: url("../fonts/Sweeneey/sweeneey.woff");
+}
+
+/* icons */
+
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icons/icomoon.eot');
+    src: url('../fonts/icons/icomoon.eot') format('embedded-opentype'),
+        url('../fonts/icons/icomoon.ttf') format('truetype'),
+        url('../fonts/icons/icomoon.woff') format('woff'),
+        url('../fonts/icons/icomoon.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+
+[class^="icon-"],
+[class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-twitter:before {
+    content: "\f099";
+}
+
+.icon-facebook:before {
+    content: "\f09a";
+}
+
+.icon-github:before {
+    content: "\f09b";
+}
+
+.icon-pinterest:before {
+    content: "\f0d2";
+}
+
+.icon-linkedin-in:before {
+    content: "\f0e1";
+}
+
+.icon-instagram:before {
+    content: "\f16d";
+}
+
+.icon-google:before {
+    content: "\f1a0";
+}
+
+.icon-reddit:before {
+    content: "\f1a1";
+}
+
+.icon-snapchat-ghost:before {
+    content: "\f2ac";
+}
+
+.icon-quora:before {
+    content: "\f2c4";
+}
+
+.icon-telegram:before {
+    content: "\f2c6";
+}
+
+.icon-app-store-ios:before {
+    content: "\f370";
+}
+
+.icon-facebook-messenger:before {
+    content: "\f39f";
+}
+
+.icon-google-play:before {
+    content: "\f3ab";
+}
+
+.icon-star:before {
+    content: "\f005";
+}
+
+.icon-info-circle:before {
+    content: "\f05a";
+}
+
+.icon-trophy:before {
+    content: "\f091";
+}
+
+.icon-circle:before {
+    content: "\f111";
+}
+
+.icon-external-link-alt:before {
+    content: "\f35d";
+}
+
+.icon-seedling:before {
+    content: "\f4d8";
+}
+
+.icon-cookie-bite:before {
+    content: "\f564";
+}
+
+.icon-globe-africa:before {
+    content: "\f57c";
+}
+
+.icon-medal:before {
+    content: "\f5a2";
 }
 
 /* palette */
@@ -99,25 +222,26 @@ header nav a {
     }
 }
 
-h1 > a {
+h1>a {
     font-family: var(--font-header_logo);
     text-decoration: none;
-} 
+}
 
 #logo {
     text-decoration: none;
     display: inline-block;
     vertical-align: middle;
     width: 1.25em;
-    padding-bottom: 0.5em; /* *NOTE 0.2em for JetBrainsMono, 0.5em for Sweeneey */  
+    padding-bottom: 0.5em;
+    /* *NOTE 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 }
 
-header nav a + a {
+header nav a+a {
     margin-left: 1.5em;
 }
 
 @media only screen and (max-width: 574px) {
-    header nav a + a {
+    header nav a+a {
         margin-left: 1em;
     }
 }
@@ -159,7 +283,7 @@ a {
 
 /* a[target="_blank"]:after { */
 a.external:after {
-    font-family: "Font Awesome 5 Free";
+    font-family: "icomoon";
     content: "\f35d";
     display: inline-block;
     padding-left: 5px;
@@ -175,7 +299,7 @@ a.external:after {
     }
 }
 
-/* selection */ 
+/* selection */
 
 ::selection {
     background-color: var(--accent);
@@ -206,15 +330,19 @@ a.external:after {
 
 @media (prefers-color-scheme: dark) {
     .tooltip {
-        color: var(--accent);   
-        background-clip: unset; /* reset */
-        background: none; /* reset */
+        color: var(--accent);
+        background-clip: unset;
+        /* reset */
+        background: none;
+        /* reset */
     }
 
     #t-one, #t-two, #t-three {
         color: var(--accent);
-        background-clip: unset; /* reset */
-        background: none; /* reset */
+        background-clip: unset;
+        /* reset */
+        background: none;
+        /* reset */
     }
 }
 
@@ -250,7 +378,7 @@ ul a {
         color: var(--light-background-font);
     }
 
-    .highlight2 > a.external:after {
+    .highlight2>a.external:after {
         color: var(--light-background-font);
     }
 }
@@ -294,7 +422,7 @@ ul a {
     scrollbar-width: 10px;
     scrollbar-color: var(--accent) var(--scrollbar-track);
 }
-  
+
 /* Works on WebKit (Chrome/Edge/Safari) */
 *::-webkit-scrollbar {
     width: 10px;
@@ -365,7 +493,7 @@ footer {
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {}
 
-/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {}
 
 /* landscape */

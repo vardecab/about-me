@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.20: Optimized loading of icons.
 - 0.19.2: Added a new review; fixed typo.
 - 0.19.1: Added a couple of things to Hobbies.
 - 0.19: Added Recommendations tab; added Telegram; changed dividers; removed some tools 
@@ -63,6 +64,7 @@
 - [HTML Formatter](https://webformatter.com/html)
 - Sitemap for Google Search Console created with: [XML-Sitemaps](https://www.xml-sitemaps.com/)
 - Icons used: [Font Awesome](https://fontawesome.com/)
+- Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
 <!-- - [GeoIPLookup.io API](https://geoiplookup.io/) -->
 <!-- - [Sunrise Sunset API](https://sunrise-sunset.org/api) -->
