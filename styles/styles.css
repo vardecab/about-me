@@ -105,8 +105,16 @@
     content: "\f005";
 }
 
+.icon-lock:before {
+    content: "\f023";
+}
+
 .icon-info-circle:before {
     content: "\f05a";
+}
+
+.icon-eye-slash:before {
+    content: "\f070";
 }
 
 .icon-trophy:before {
@@ -123,10 +131,6 @@
 
 .icon-seedling:before {
     content: "\f4d8";
-}
-
-.icon-cookie-bite:before {
-    content: "\f564";
 }
 
 .icon-globe-africa:before {
@@ -268,7 +272,9 @@ ul {
     text-align: left;
 }
 
-#on-site, #online, .italic {
+#on-site,
+#online,
+.italic {
     font-style: italic;
 }
 
@@ -323,7 +329,9 @@ a.external:after {
     background-clip: content-box;
 }
 
-#t-one, #t-two, #t-three {
+#t-one,
+#t-two,
+#t-three {
     vertical-align: super;
     font-size: 65%;
     background: var(--accent);
@@ -339,7 +347,9 @@ a.external:after {
         /* reset */
     }
 
-    #t-one, #t-two, #t-three {
+    #t-one,
+    #t-two,
+    #t-three {
         color: var(--accent);
         background-clip: unset;
         /* reset */
