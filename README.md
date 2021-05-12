@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.20.1: Avoid showing invisible text while custom fonts load. 
 - 0.20: Optimized loading of icons.
 - 0.19.2: Added a new review; fixed typo.
 - 0.19.1: Added a couple of things to Hobbies.

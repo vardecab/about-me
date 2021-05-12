@@ -4,12 +4,14 @@
     /* JetBrains Mono → https://www.jetbrains.com/lp/mono/ */
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
+    font-display: swap; /* avoid showing invisible text while custom fonts load */
 }
 
 @font-face {
     /* Sweeney → https://pixlr.com/stock/details/100400577-sweeney-font-family/ */
     font-family: "Sweeneey";
     src: url("../fonts/Sweeneey/sweeneey.woff");
+    font-display: swap; /* avoid showing invisible text while custom fonts load */
 }
 
 /* icons */
