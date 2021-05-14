@@ -141,6 +141,10 @@
     content: "\f5a2";
 }
 
+.icon-hand-holding-usd-solid:before {
+    content: "\e900";
+}
+
 /* palette */
 
 :root {

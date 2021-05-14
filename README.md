@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.21.2: Added Revolut URL.
 - 0.21.1: Fixed icons not displaying.
 - 0.21: 'No tracking' notice.
 - 0.20.1: Avoid showing invisible text while custom fonts load. 
