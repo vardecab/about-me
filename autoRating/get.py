@@ -7,6 +7,13 @@ import certifi # fix certificate issue: https://stackoverflow.com/questions/5280
 from datetime import datetime # calculate script's run time
 import re # regex; extract substrings
 import time # delay execution; https://stackoverflow.com/questions/3327775/can-the-execution-of-statements-in-python-be-delayed
+import webbrowser # open URLs
+from sys import platform # check platform (Windows/Linux/macOS)
+if platform == 'win32':
+    from win10toast_click import ToastNotifier # Windows 10 notifications
+    toaster = ToastNotifier() # initialize win10toast
+elif platform == 'darwin':
+    import pync # macOS notifications 
 
 # === start + run time ===
 
@@ -50,6 +57,20 @@ print(f"Rating: {rating}") # format: #.##
 
 with open('./rating.txt', 'w') as file_rating: # write rating to .txt file
     file_rating.write(rating) # write rating to .txt file
+
+# === notifications === 
+
+def open_url(): # callback from Windows 10 notification 
+    # try: 
+    webbrowser.open_new(page_url)
+        # print('')  
+    # except: 
+        # print('')
+
+if platform == "darwin":
+    pync.notify(f'Update complete.', title='about-me', subtitle='autoRating', open=page_url, contentImage="https://i.postimg.cc/pdt9gYkv/star.png")
+elif platform == "win32":
+    toaster.show_toast(title="about-me", msg='Update complete.', icon_path="../icons/star.ico", duration=None, threaded=True, callback_on_click=open_url) # duration=None - leave notification in Notification Center; threaded=True - rest of the script will be allowed to be executed while the notification is still active
 
 # === run time ===
 
