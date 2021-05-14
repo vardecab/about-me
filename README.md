@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.22.2: Improved handling of `rating` value.
 - 0.22.1: Added macOS & Windows 10 notifications to notify when autoRating update is complete. 
 - 0.22: Automatically get rating & number of sessions from GrowthMentor profile. 
 - 0.21.2: Added Revolut URL.

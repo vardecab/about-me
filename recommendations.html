@@ -48,7 +48,13 @@
                 fetch("./autoRating/rating.txt")
                     .then(response => response.text())
                     .then(rating => {
-                        document.getElementById("rating").textContent = rating;
+                        rating = parseFloat(rating) /* format: # instead of #.## // removing trailing zeros */
+                        if (rating == 5.00) {
+                            document.getElementById("rating").textContent = 'Perfect rating of ' + rating;
+                        }
+                        else {
+                            document.getElementById("rating").textContent = 'Rating ~ 5';
+                        }
                     });
                 // get # of sessions
                 fetch("./autoRating/sessions.txt")
@@ -58,7 +64,7 @@
                     });
             </script>
     
-            <span class="highlight2">Rating: <span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external">GrowthMentor</a>.</span>
+            <span class="highlight2"><span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external">GrowthMentor</a>.</span>
 
             <br>
             <br>
