@@ -3,7 +3,7 @@
 ![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
 
 ## Release History
-
+- 0.22: Automatically get rating & number of sessions from GrowthMentor profile. 
 - 0.21.2: Added Revolut URL.
 - 0.21.1: Fixed icons not displaying.
 - 0.21: 'No tracking' notice.
