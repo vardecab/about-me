@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.23: Recommendations tab: automatically get number of reviews; added icon for reviews; changed URL for reviews; added info about updating the numbers; updated headline & meta tags.
 - 0.22.2: Improved handling of `rating` value.
 - 0.22.1: Added macOS & Windows 10 notifications to notify when autoRating update is complete. 
 - 0.22: Automatically get rating & number of sessions from GrowthMentor profile. 

@@ -4,14 +4,16 @@
     /* JetBrains Mono → https://www.jetbrains.com/lp/mono/ */
     font-family: "JetBrainsMono";
     src: url("../fonts/JetBrainsMono/JetBrainsMono-Regular.woff2");
-    font-display: swap; /* avoid showing invisible text while custom fonts load */
+    font-display: swap;
+    /* avoid showing invisible text while custom fonts load */
 }
 
 @font-face {
     /* Sweeney → https://pixlr.com/stock/details/100400577-sweeney-font-family/ */
     font-family: "Sweeneey";
     src: url("../fonts/Sweeneey/sweeneey.woff");
-    font-display: swap; /* avoid showing invisible text while custom fonts load */
+    font-display: swap;
+    /* avoid showing invisible text while custom fonts load */
 }
 
 /* icons */
@@ -43,6 +45,10 @@
     /* Better Font Rendering =========== */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-hand-holding-usd-solid:before {
+    content: "\e900";
 }
 
 .icon-twitter:before {
@@ -133,6 +139,10 @@
     content: "\f4d8";
 }
 
+.icon-robot:before {
+    content: "\f544";
+}
+
 .icon-globe-africa:before {
     content: "\f57c";
 }
@@ -141,8 +151,12 @@
     content: "\f5a2";
 }
 
-.icon-hand-holding-usd-solid:before {
-    content: "\e900";
+.icon-comment-alt-smile:before {
+    content: "\e901";
+}
+
+.icon-autoupdate:before {
+    content: "\e902";
 }
 
 /* palette */
