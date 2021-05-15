@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.23.3: Updated `og:image`. 
 - 0.23.2: Updates to Open Graph meta tags.
 - 0.23.1: Updated `og:image`. 
 - 0.23: Recommendations tab: automatically get number of reviews; added icon for reviews; changed URL for reviews; added info about updating the numbers; updated headline & meta tags.
