@@ -549,7 +549,7 @@ footer {
 
 }
 
-@keyframes "blink" {
+@keyframes blink {
 
     from,
     to {
@@ -573,7 +573,7 @@ footer {
     }
 }
 
-@-webkit-keyframes "blink" {
+@-webkit-keyframes blink {
 
     from,
     to {
@@ -585,7 +585,7 @@ footer {
     }
 }
 
-@-ms-keyframes "blink" {
+@-ms-keyframes blink {
 
     from,
     to {
@@ -597,7 +597,7 @@ footer {
     }
 }
 
-@-o-keyframes "blink" {
+@-o-keyframes blink {
 
     from,
     to {
@@ -608,4 +608,12 @@ footer {
         opacity: 1;
     }
 }
-}
+
+/* image */
+/* .responsiveImage, img {
+    width: 100%;
+    /* max-width: 400px; */
+    /* height: auto; */
+    /* display: none; */
+    /* visibility: hidden; */
+/* } */ 
