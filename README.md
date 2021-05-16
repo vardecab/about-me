@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.24: Modified CSS; changed navbar look on mobile; added blinking icon to indicate that `autoRating` is active.
 - 0.23.3: Updated `og:image`. 
 - 0.23.2: Updates to Open Graph meta tags.
 - 0.23.1: Updated `og:image`. 

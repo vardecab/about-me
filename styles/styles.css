@@ -30,7 +30,6 @@
     font-display: block;
 }
 
-
 [class^="icon-"],
 [class*=" icon-"] {
     /* use !important to prevent issues with browser extensions that change fonts */
@@ -42,7 +41,7 @@
     text-transform: none;
     line-height: 1;
 
-    /* Better Font Rendering =========== */
+    /* better font rendering */
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -228,7 +227,7 @@ header {
 }
 
 header nav a {
-    text-decoration: none;
+    /* text-decoration: none; */
     display: inline-block;
 }
 
@@ -239,6 +238,8 @@ header nav a {
 
     header nav a {
         font-size: 0.7rem !important;
+        display: flex;
+        line-height: 2.5;
     }
 
     ul {
@@ -266,18 +267,13 @@ header nav a+a {
 
 @media only screen and (max-width: 574px) {
     header nav a+a {
-        margin-left: 1em;
+        margin-left: 0em;
     }
 }
 
-/* rotate 'hobbies' 
-nav > a:nth-child(4) {
-    -webkit-transform: rotate(-180deg);  
-    transform: rotate(-180deg);  
-} */
-
-header #active {
-    border-bottom: 5px solid var(--accent);
+nav a:not(#active) {
+    /* underline active tab in nav */
+    text-decoration: none;
 }
 
 ul {
@@ -301,9 +297,9 @@ ul {
     font-size: 1.1rem;
 }
 
-a {
+/* a {
     color: currentColor;
-}
+} */
 
 /* external links */
 
@@ -378,20 +374,20 @@ a.external:after {
 
 /* 'Let's connect' section styling */
 
-.socialmedia a {
-    text-decoration: none;
-    border-bottom: 5px solid var(--accent);
+/* .socialmedia a { */
+a {
+    /* text-decoration: none; */
+    text-decoration: underline;
+    /* border-bottom: 5px solid var(--accent); */
+    text-decoration-color: var(--accent);
+    text-decoration-thickness: 30%;
+    color: currentColor;
 }
 
-ul a {
-    /* text-decoration: none;
-    border-bottom: 2px solid var(--accent); */
-}
-
-#experience a {
+/* #experience a {
     border: none;
     text-decoration: underline;
-}
+} */
 
 /* #name, 
 .highlight { 
@@ -433,7 +429,7 @@ ul a {
     font-size: 0.7rem;
 }
 
-.on {
+.on { /* circle */ 
     color: var(--on);
 }
 
@@ -444,6 +440,18 @@ ul a {
 .ongoing {
     color: var(--ongoing);
 }
+
+.gm-with-highlight {
+    text-decoration-color: var(--dark-background);
+    text-decoration-thickness: 20%;
+}
+
+@media (prefers-color-scheme: dark) {
+    .gm-with-highlight {
+        text-decoration-color: var(--dark-background-font);
+    }
+}
+
 
 /* custom scrollbar */
 
@@ -528,3 +536,76 @@ footer {
 
 /* landscape */
 @media only screen and (orientation: landscape) {}
+
+/* blink */
+
+.status {
+    color: var(--on);
+    -webkit-animation: 2s blink ease infinite;
+    -moz-animation: 2s blink ease infinite;
+    -ms-animation: 2s blink ease infinite;
+    -o-animation: 2s blink ease infinite;
+    animation: 2s blink ease infinite;
+
+}
+
+@keyframes "blink" {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes "blink" {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes "blink" {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes "blink" {
+
+    from,
+    to {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+}
+}
