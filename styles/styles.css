@@ -58,6 +58,10 @@
     content: "\f09a";
 }
 
+.icon-satellite-dish:before {
+    content: "\f7c0";
+}
+
 .icon-github:before {
     content: "\f09b";
 }

@@ -54,31 +54,59 @@
                         if (rating == 5.00) {
                             document.getElementById("rating").textContent = 'Perfect rating of ' + rating;
                         }
-                        else {
+                        else if (rating >= 4.5 && rating < 5) {
                             document.getElementById("rating").textContent = 'Rating ~ 5';
+                        }
+                        else {
+                            removeRating = document.getElementById("removeRating");
+                            removeRating.remove()
                         }
                     });
                 // get # of sessions
                 fetch("./autoRating/sessions.txt")
                     .then(response => response.text())
                     .then(sessions => {
-                        document.getElementById("sessions").textContent = sessions;
+                        if (sessions == '') {
+                            document.getElementById("sessions").textContent = 'all';
+                        }
+                        else {
+                            document.getElementById("sessions").textContent = sessions;
+                        }
                     });
                 // get # of reviews
                 fetch("./autoRating/reviews.txt")
                     .then(response => response.text())
                     .then(reviews => {
                         reviews = parseInt(reviews)
-                        document.getElementById("reviews").textContent = reviews;
+                        if (isNaN(reviews) == false) {
+                            document.getElementById("reviews").textContent = reviews;
+                        }
                     });
             </script>
+            <!-- fallback when scripts are disabled -->
+            <noscript>
+                <style>
+                    #removeRating {
+                        display: none;
+                    }
+                </style>
+            </noscript>
     
-            <span class="highlight2"><span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>.</span>
+            <div id="removeRating">
+                <span class="highlight2">
+                    <span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>.
+                </span>
+            
+                <br>
+                <br>
+            </div>
+
+            A few reviews written by my Mentees<span id='onGrowthMentor'></span>:
 
             <br>
             <br>
 
-            A few reviews written by my Mentees:
+            <i class="icon-comment-alt-smile"></i> "Wish there was a 6th star to leave as a review. Highly highly recommend having a conversation with him, a real top class mentor! Kuba was super go-out-of-the-way helpful and arguably the best session I've booked on here [GrowthMentor]. He took the time to do a deep-dive on my company, the website, and other specifics before the call to ensure that I am able to gain max. value from the call. Additionally we continued the conversations for 30 min past the time spent to ensure we could cover all granularities. Came out feeling both unstuck (after a week of being overwhelmed) and equipped with tactics, approaches, methodologies, etc. Thank you so so much."
 
             <br>
             <br>
@@ -143,7 +171,7 @@
             <br>
             <br>
 
-            My rating + number of sessions and reviews are automagically updated every few hours <i class="icon-robot"></i> <i class="icon-circle status"></i>
+            My rating + number of sessions and reviews are automagically updated every few hours <i class="icon-robot"></i> <i class="icon-satellite-dish status"></i>
         </div>
     </div>
     <footer>

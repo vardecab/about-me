@@ -4,6 +4,7 @@
 
 ## Release History
 
+- 0.25: Added fallbacks and `noscript` fallback to `autoRating` logic; changed icon; added a new review.
 - 0.24: Modified CSS; changed navbar look on mobile; added blinking icon to indicate that `autoRating` is active.
 - 0.23.3: Updated `og:image`. 
 - 0.23.2: Updates to Open Graph meta tags.
