@@ -1,6 +1,12 @@
 # My personal website 
 
+## Status 
+
 ![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
+
+## PageSpeed Insights
+
+![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png)
 
 ## Release History
 

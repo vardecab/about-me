@@ -1,208 +1,213 @@
+<!-- =============================== -->
+<!--            Hello! :)            -->
+<!-- =============================== -->
+
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- --------- essentials ---------- -->
+        <title>Recommendations • Kuba Rdzak</title>
+        <link rel="icon" type="image/png" href="icons/nerd-custom.png" />
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- ------------- SEO ------------- -->
+        <meta name="robots" content="noindex, follow">
+        <meta name="description" content="Growth Marketer, Growth Mentor, Media Buyer for F500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from #1 business university in Poland." />
+        <meta name="author" content="Kuba Rdzak">
+        <!-- --------- Open Graph ---------- -->
+        <meta property="og:title" content="Kuba Rdzak 🤓" />
+        <meta property="og:description" content="Growth Marketer, Growth Mentor, Media Buyer for F500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from #1 business university in Poland." />
+        <meta property="og:image" content="https://vardecab.github.io/about-me/icons/KubaRdzak-cover-yellow_v4.jpg" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:url" content="https://vardecab.github.io/about-me/index.html" />
+        <!-- <meta property="og:type" content="website"> -->
+        <meta name="twitter:card" content="summary_large_image" />
+        <!-- --------- theme color --------- -->
+        <meta name="theme-color" content="#ffdf3b" />
+        <!-- ------- external files -------- -->
+        <link rel="stylesheet" href="styles/styles.min.css" />
+    </head>
 
-<head>
-    <!-- essentials -->
-    <title>Recommendations • Kuba Rdzak</title>
-    <link rel="icon" type="image/png" href="icons/nerd-custom.png" />
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- SEO -->
-    <meta name="robots" content="noindex, follow">
-    <meta name="description" content="Growth Marketer, Growth Mentor, Media Buyer for F500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from #1 business university in Poland." />
-    <meta name="author" content="Kuba Rdzak">
-    <!-- Open Graph -->
-    <meta property="og:title" content="Kuba Rdzak 🤓" />
-    <meta property="og:description" content="Growth Marketer, Growth Mentor, Media Buyer for F500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from #1 business university in Poland." />
-    <meta property="og:image" content="https://vardecab.github.io/about-me/icons/KubaRdzak-cover-yellow_v4.jpg" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:url" content="https://vardecab.github.io/about-me/index.html" />
-    <meta property="og:type" content="website">
-    <meta name="twitter:card" content="summary_large_image" />
-    <!-- theme color -->
-    <meta name="theme-color" content="#ffdf3b" />
-    <!-- external files -->
-    <link rel="stylesheet" href="styles/styles.min.css" />
-    <!-- <link rel="preload" href="styles/styles.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
-    <!-- <noscript><link rel="stylesheet" href="styles/styles.min.css"></noscript> -->
-</head>
+    <body>
+        <script>
+            console.log('%c Hello! 🤓', 'color: #ffdf3b', );
+            console.log('%c Wanna discuss how this website was built? Send me a message on Messenger/Telegram/LinkedIn.', 'color: #ffdf3b', );
+        </script>
+        <div id="wrapper">
+            <header>
+                <h1>
+                    <a href="index.html">Kuba Rdzak <img id="logo" src="./icons/nerd-custom.png" alt="Emoji-like icon displaying a nerd, 🤓" /></a>
+                </h1>
+                <nav>
+                    <a href="index.html">intro</a>
+                    <a href="experience.html">experience</a>
+                    <a href="recommendations.html" id="active">recommendations</a>
+                    <a href="education.html">education</a>
+                    <a href="hobbies.html">hobbies</a>
+                </nav>
+            </header>
+            <div id="content">
 
-<body>
-    <div id="wrapper">
-        <header>
-            <h1>
-                <a href="index.html">Kuba Rdzak <img id="logo" src="./icons/nerd-custom.png" alt="Emoji-like icon displaying a nerd, 🤓" /></a>
-            </h1>
-            <nav>
-                <a href="index.html">intro</a>
-                <a href="experience.html">experience</a>
-                <a href="recommendations.html" id="active">recommendations</a>
-                <a href="education.html">education</a>
-                <a href="hobbies.html">hobbies</a>
-            </nav>
-        </header>
-        <div id="content">
+                <script>
+                    // === get the numbers === 
+                    // get rating
+                    fetch("./autoRating/rating.txt")
+                        .then(response => response.text())
+                        .then(rating => {
+                            rating = parseFloat(rating) /* format: # instead of #.## // removing trailing zeros */
+                            if (rating == 5.00) {
+                                document.getElementById("rating").textContent = 'Perfect rating of ' + rating;
+                            }
+                            else if (rating >= 4.5 && rating < 5) {
+                                document.getElementById("rating").textContent = 'Rating ~ 5';
+                            }
+                            else {
+                                removeRating = document.getElementById("removeRating");
+                                removeRating.remove()
+                            }
+                        });
+                    // get # of sessions
+                    fetch("./autoRating/sessions.txt")
+                        .then(response => response.text())
+                        .then(sessions => {
+                            if (sessions == '') {
+                                document.getElementById("sessions").textContent = 'all';
+                            }
+                            else {
+                                document.getElementById("sessions").textContent = sessions;
+                            }
+                        });
+                    // get # of reviews
+                    fetch("./autoRating/reviews.txt")
+                        .then(response => response.text())
+                        .then(reviews => {
+                            reviews = parseInt(reviews)
+                            if (isNaN(reviews) == false) {
+                                document.getElementById("reviews").textContent = reviews;
+                            }
+                        });
+                </script>
+                <!-- fallback when scripts are disabled -->
+                <noscript>
+                    <style>
+                        #removeRating {
+                            display: none;
+                        }
+                    </style>
+                </noscript>
+        
+                <div id="removeRating">
+                    <span class="highlight2">
+                        <span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>.
+                    </span>
+                
+                    <br>
+                    <br>
+                </div>
 
-            <script>
-                // === get the numbers === 
-                // get rating
-                fetch("./autoRating/rating.txt")
-                    .then(response => response.text())
-                    .then(rating => {
-                        rating = parseFloat(rating) /* format: # instead of #.## // removing trailing zeros */
-                        if (rating == 5.00) {
-                            document.getElementById("rating").textContent = 'Perfect rating of ' + rating;
-                        }
-                        else if (rating >= 4.5 && rating < 5) {
-                            document.getElementById("rating").textContent = 'Rating ~ 5';
-                        }
-                        else {
-                            removeRating = document.getElementById("removeRating");
-                            removeRating.remove()
-                        }
-                    });
-                // get # of sessions
-                fetch("./autoRating/sessions.txt")
-                    .then(response => response.text())
-                    .then(sessions => {
-                        if (sessions == '') {
-                            document.getElementById("sessions").textContent = 'all';
-                        }
-                        else {
-                            document.getElementById("sessions").textContent = sessions;
-                        }
-                    });
-                // get # of reviews
-                fetch("./autoRating/reviews.txt")
-                    .then(response => response.text())
-                    .then(reviews => {
-                        reviews = parseInt(reviews)
-                        if (isNaN(reviews) == false) {
-                            document.getElementById("reviews").textContent = reviews;
-                        }
-                    });
-            </script>
-            <!-- fallback when scripts are disabled -->
-            <noscript>
-                <style>
-                    #removeRating {
-                        display: none;
-                    }
-                </style>
-            </noscript>
-    
-            <div id="removeRating">
-                <span class="highlight2">
-                    <span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>.
-                </span>
-            
+                A few reviews written by my Mentees<span id='onGrowthMentor'></span>:
+
                 <br>
                 <br>
+
+                <i class="icon-comment-alt-smile"></i> "Wish there was a 6th star to leave as a review. Highly highly recommend having a conversation with him, a real top class mentor! Kuba was super go-out-of-the-way helpful and arguably the best session I've booked on here [GrowthMentor]. He took the time to do a deep-dive on my company, the website, and other specifics before the call to ensure that I am able to gain max. value from the call. Additionally we continued the conversations for 30 min past the time spent to ensure we could cover all granularities. Came out feeling both unstuck (after a week of being overwhelmed) and equipped with tactics, approaches, methodologies, etc. Thank you so so much."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba was absolutely fantastic to speak with. He took the time to familiarise himself with my company prior to the call. We went through my issue and he gave me honest feedback and actionable guidance on crucial underperforming areas. Really looking forward to implementing his guidance and catching up again to review. An incredibly productive and valuable session."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba is a great mentor! He has a wealth of knowledge and can provide advice with examples from his experience at a dizzying rate! His strategic perspective followed by digging into tactics that can be tested was really impressive - as with anything in marketing, we don't know until we test. Kuba asks all the right questions to get the most out of a session. I have pages of notes for my next month's experiments."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba is a hands down expert in Facebook Advertising. His help is what I needed and through our session I walked away with 4-5 action items to revive my remarketing ads which have dropped in performance. Kuba is an overall thoughtful person and is the kind of guy you want to talk marketing with! From the conversation I saw his experience permeated many verticals. He is a true professional."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba has a range of awesome tools to offer and really helped me get a clear picture of what I need to build. He's very empathetic and continues to ask the right questions."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba has been great, he helped me create a whole [Google Sheets] file with code for one of our real estate agents so the leads coming from a third party would go to her CRM system. It was a struggle for me and it looks like he resolved the issue."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba was awesome! He took the time to review my website prior to our call and gave me actionable feedback to improve the metrics I was working on."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "I discussed LinkedIn and Facebook ads with Kuba and he gave me many insights and make me realise I have many homework to do! He doesn't hesitate to share his knowledge and tell me anything I need to know."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba goes above and beyond. He has been helping me out with my Google [Gmail] and Zapier issues. He has been available even after the call and makes sure I understand everything. He has done the research and spent more time outside of our meeting to come up with a solution to my problems."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba was great to chat to and had some new ideas/strategies different from other mentors. Really appreciated his advice."
+
+                <br>
+                <br>
+
+                <i class="icon-comment-alt-smile"></i> "Kuba is very friendly in listening, sharing his exeriences on the automation and API projects. Overall great guidance."
+
+                <br>
+                <br>
+
+                Read all <span id="reviews"></span> reviews on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak#reviews" target="_blank" class="external">GrowthMentor</a>.
+
+                <br>
+                <br>
+
+                ——
+
+                <br>
+                <br>
+
+                My rating + number of sessions and reviews are automagically updated every few hours <i class="icon-robot"></i> <i class="icon-satellite-dish status"></i>
             </div>
-
-            A few reviews written by my Mentees<span id='onGrowthMentor'></span>:
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Wish there was a 6th star to leave as a review. Highly highly recommend having a conversation with him, a real top class mentor! Kuba was super go-out-of-the-way helpful and arguably the best session I've booked on here [GrowthMentor]. He took the time to do a deep-dive on my company, the website, and other specifics before the call to ensure that I am able to gain max. value from the call. Additionally we continued the conversations for 30 min past the time spent to ensure we could cover all granularities. Came out feeling both unstuck (after a week of being overwhelmed) and equipped with tactics, approaches, methodologies, etc. Thank you so so much."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba was absolutely fantastic to speak with. He took the time to familiarise himself with my company prior to the call. We went through my issue and he gave me honest feedback and actionable guidance on crucial underperforming areas. Really looking forward to implementing his guidance and catching up again to review. An incredibly productive and valuable session."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba is a great mentor! He has a wealth of knowledge and can provide advice with examples from his experience at a dizzying rate! His strategic perspective followed by digging into tactics that can be tested was really impressive - as with anything in marketing, we don't know until we test. Kuba asks all the right questions to get the most out of a session. I have pages of notes for my next month's experiments."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba is a hands down expert in Facebook Advertising. His help is what I needed and through our session I walked away with 4-5 action items to revive my remarketing ads which have dropped in performance. Kuba is an overall thoughtful person and is the kind of guy you want to talk marketing with! From the conversation I saw his experience permeated many verticals. He is a true professional."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba has a range of awesome tools to offer and really helped me get a clear picture of what I need to build. He's very empathetic and continues to ask the right questions."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba has been great, he helped me create a whole [Google Sheets] file with code for one of our real estate agents so the leads coming from a third party would go to her CRM system. It was a struggle for me and it looks like he resolved the issue."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba was awesome! He took the time to review my website prior to our call and gave me actionable feedback to improve the metrics I was working on."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "I discussed LinkedIn and Facebook ads with Kuba and he gave me many insights and make me realise I have many homework to do! He doesn't hesitate to share his knowledge and tell me anything I need to know."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba goes above and beyond. He has been helping me out with my Google [Gmail] and Zapier issues. He has been available even after the call and makes sure I understand everything. He has done the research and spent more time outside of our meeting to come up with a solution to my problems."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba was great to chat to and had some new ideas/strategies different from other mentors. Really appreciated his advice."
-
-            <br>
-            <br>
-
-            <i class="icon-comment-alt-smile"></i> "Kuba is very friendly in listening, sharing his exeriences on the automation and API projects. Overall great guidance."
-
-            <br>
-            <br>
-
-            Read all <span id="reviews"></span> reviews on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak#reviews" target="_blank" class="external">GrowthMentor</a>.
-
-            <br>
-            <br>
-
-            ——
-
-            <br>
-            <br>
-
-            My rating + number of sessions and reviews are automagically updated every few hours <i class="icon-robot"></i> <i class="icon-satellite-dish status"></i>
         </div>
-    </div>
-    <footer>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <footer>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
 
-        <a href="#" title="Scroll to top ↑" class="scroll">
-            <div class="custom-shape-divider-bottom-1591393761">
-                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
-                    <path
-                        d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
-                        opacity=".25" class="shape-fill"></path>
-                    <path
-                        d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
-                        opacity=".5" class="shape-fill"></path>
-                    <path
-                        d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"
-                        class="shape-fill"></path>
-                </svg>
-            </div>
-        </a>
-    </footer>
-    <script>
-        // a wild workaround to fix padding issue for smiley logo on a MacBook
-        if (window.navigator.platform == "MacIntel") {
-            document.getElementById("logo").style.paddingBottom = "0.2em";
-        }
-    </script>
-</body>
+            <a href="#" title="Scroll to top ↑" class="scroll">
+                <div class="custom-shape-divider-bottom-1591393761">
+                    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                        <path
+                            d="M0 0v46.29c47.79 22.2 103.59 32.17 158 28 70.36-5.37 136.33-33.31 206.8-37.5 73.84-4.36 147.54 16.88 218.2 35.26 69.27 18 138.3 24.88 209.4 13.08 36.15-6 69.85-17.84 104.45-29.34C989.49 25 1113-14.29 1200 52.47V0z"
+                            opacity=".25" class="shape-fill"></path>
+                        <path
+                            d="M0 0v15.81c13 21.11 27.64 41.05 47.69 56.24C99.41 111.27 165 111 224.58 91.58c31.15-10.15 60.09-26.07 89.67-39.8 40.92-19 84.73-46 130.83-49.67 36.26-2.85 70.9 9.42 98.6 31.56 31.77 25.39 62.32 62 103.63 73 40.44 10.79 81.35-6.69 119.13-24.28s75.16-39 116.92-43.05c59.73-5.85 113.28 22.88 168.9 38.84 30.2 8.66 59 6.17 87.09-7.5 22.43-10.89 48-26.93 60.65-49.24V0z"
+                            opacity=".5" class="shape-fill"></path>
+                        <path
+                            d="M0 0v5.63C149.93 59 314.09 71.32 475.83 42.57c43-7.64 84.23-20.12 127.61-26.46 59-8.63 112.48 12.24 165.56 35.4C827.93 77.22 886 95.24 951.2 90c86.53-7 172.46-45.71 248.8-84.81V0z"
+                            class="shape-fill"></path>
+                    </svg>
+                </div>
+            </a>
+        </footer>
+        <script>
+            // a wild workaround to fix padding issue for smiley logo on a MacBook
+            if (window.navigator.platform == "MacIntel") {
+                document.getElementById("logo").style.paddingBottom = "0.2em";
+            }
+        </script>
+    </body>
 
 </html>
