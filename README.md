@@ -10,6 +10,8 @@
 
 ## Release History
 
+- 0.25.3: Added some more text.
+- 0.25.2: Added a link to an article; removed fudge recipe.
 - 0.25.1: Attempt at fixing `og:image` not showing on messaging apps; added a couple easter eggs.
 - 0.25: Added fallbacks and `noscript` fallback to `autoRating` logic; changed icon; added a new review.
 - 0.24: Modified CSS; changed navbar look on mobile; added blinking icon to indicate that `autoRating` is active.
