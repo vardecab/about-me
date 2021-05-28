@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.25.4: Added some more text.
 - 0.25.3: Added some more text.
 - 0.25.2: Added a link to an article; removed fudge recipe.
 - 0.25.1: Attempt at fixing `og:image` not showing on messaging apps; added a couple easter eggs.
