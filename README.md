@@ -2,7 +2,7 @@
 
 ## Status 
 
-![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
+![](https://img.shields.io/uptimerobot/status/m7q88095896-cdb18b31195bf8751e8346af)
 
 ## PageSpeed Insights
 
@@ -10,6 +10,9 @@
 
 ## Release History
 
+- 0.25.4: Added some more text.
+- 0.25.3: Added some more text to GrowthMentor.
+- 0.25.2: Added a link to an article; removed fudge recipe.
 - 0.25.1: Attempt at fixing `og:image` not showing on messaging apps; added a couple easter eggs.
 - 0.25: Added fallbacks and `noscript` fallback to `autoRating` logic; changed icon; added a new review.
 - 0.24: Modified CSS; changed navbar look on mobile; added blinking icon to indicate that `autoRating` is active.
