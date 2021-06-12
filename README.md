@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.25.6: Re-added fudge recipe.
 - 0.25.5: Added a new review.
 - 0.25.4: Added some more text.
 - 0.25.3: Added some more text to GrowthMentor.
