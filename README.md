@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.25.8: Added new certificates.
 - 0.25.7: Added new certificates.
 - 0.25.6: Re-added fudge recipe.
 - 0.25.5: Added a new review.
