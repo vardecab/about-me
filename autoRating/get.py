@@ -22,7 +22,7 @@ start_time = time.time() # run time start
 
 # === URL to scrape ===
 
-page_url = "https://app.growthmentor.com/mentors/kuba-rdzak" 
+page_url = "https://app.growthmentor.com/mentors/kuba-rdzak" # my GrowthMentor profile page
 
 # === open & scrape ===
 
