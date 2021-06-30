@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.25.12: Added new certificate.
 - 0.25.11: Added new certificate.
 - 0.25.10: Added text.
 - 0.25.9: Added new certificates.
