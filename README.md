@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.26: Added cover image; changed path to `og:image`.
 - 0.25.13: Text changes.
 - 0.25.12: Added new certificate.
 - 0.25.11: Added new certificate.

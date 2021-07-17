@@ -1,29 +1,22 @@
-# old files
+# ------------- old files ------------ #
 _old
-icons/nerd.png
-icons/KubaRdzak-cover-yellow_v1.jpg
-icons/KubaRdzak-cover-yellow_v2.jpg
-icons/KubaRdzak-cover-yellow_v3.jpg
-icons/KubaRdzak-cover-yellow_v5.jpg
 
-# misc
+# --------------- misc --------------- #
 .DS_Store
 .vscode
 TODO
 
-# fonts
-fonts/Mali
-fonts/Arvo
-fonts/JetBrainsMono
-fonts/Mali
-learn-more.html
-
-# sections re-write
-index-sections.html
-styles/styles-sections.css
-
-# notion 
+# ------------ autoRating ------------ #
+# Notion 
 autorating/notion
-
 # automate
 autorating/automate
+
+# -------------- images -------------- #
+images/* 
+!images/KubaRdzak-cover-yellow_v4.jpg
+!images/KubaRdzak-cover-yellow_v5-compressed2.jpg
+
+# --------- sections re-write -------- #
+index-sections.html
+styles/styles-sections.css
