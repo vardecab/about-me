@@ -98,3 +98,4 @@
 - Icons used: [Font Awesome](https://fontawesome.com/)
 - Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
+- Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
