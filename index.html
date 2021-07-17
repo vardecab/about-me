@@ -82,7 +82,7 @@
                 <!-- ---------- headline ----------- -->
 
                 <h2 id="headline">
-                    I'm <span class="highlight">Kuba</span> — Growth Marketer, Growth Mentor, Media Buyer for Fortune 500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from the best business university in Poland. Currently the Head of Paid Social @ Ladder Digital<a href="#t-one" class="tooltip">1</a>.
+                    I'm <span class="highlight">Kuba<a href="#t-zero" class="tooltip">0</a></span> — Growth Marketer, Growth Mentor, Media Buyer for Fortune 500 & YC companies, Certified Team Manager, Asana Ambassador with MSc from the best business university in Poland. Currently the Head of Paid Social @ Ladder Digital<a href="#t-one" class="tooltip">1</a>.
                 </h2>
 
                 <!-- ------------ text ------------- -->
@@ -110,15 +110,34 @@
                 <br>
 
                 ——
-                <p class="footnote"><span id="t-one">1</span>Award-Winning <a href="https://ladder.io/" target="_blank" class="external">Growth Marketing Agency</a></p>
-                <p>
-                    <span id="t-two">2</span>I had a great opportunity to help companies both small and big, including
-                    <span class="highlight"> Fortune 500</span> and <span class="highlight">Y Combinator</span>
-                    ones. For example:
-                    <span class="highlight"> Booking.com, Nestlé, Credit Suisse, Monzo Bank, Criteo, MidFirst Bank, Time Out Group, Playground Sessions, Jewel Commerce (bought by Capital One), LetUlet (backed by Airbnb), Sophos</span>.
+                <p class="footnotes">
+                    <!-- 0 -->
+                    <span id="t-zero">0</span> /k oo b a/ 
+                
+                    <audio id="pronunciation">
+                        <source src="audio/Kuba pronounced in PL.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio> 
+
+                    <button onclick="playAudio()" type="button" id="playAudio"><i class="icon-play"></i> Click to hear it</button>
+
+                    <!-- 1 -->
                     <br>
                     <br>
-                    <span id="t-three">3</span>Currently available only in Polish.
+
+                    <span id="t-one">1</span> Award-Winning <a href="https://ladder.io/" target="_blank" class="external">Growth Marketing Agency</a>
+                
+                    <!-- 2 -->
+                    <br>
+                    <br>
+
+                    <span id="t-two">2</span> I had a great opportunity to help companies both small and big, including <span class="highlight"> Fortune 500</span> and <span class="highlight">Y Combinator</span> ones. For example: <span class="highlight"> Booking.com, Nestlé, Credit Suisse, Monzo Bank, Criteo, MidFirst Bank, Time Out Group, Playground Sessions, Jewel Commerce (bought by Capital One), LetUlet (backed by Airbnb), Sophos</span>.
+
+                    <!-- 3 -->
+                    <br>
+                    <br>
+
+                    <span id="t-three">3</span> Currently available only in Polish.
                 </p>
                 <br>
 
@@ -190,13 +209,19 @@
             </a>
         </footer>
 
-        <!-- ---- fix for padding issue ---- -->
+        <!-- ---- scripts ---- -->
 
         <script>
             // a wild workaround to fix padding issue for smiley logo on a MacBook
             if (window.navigator.platform == "MacIntel") {
                 document.getElementById("logo").style.paddingBottom = "0.2em";
             }
+
+            // play audio
+            var player = document.getElementById("pronunciation"); 
+            function playAudio() {
+                player.play();
+            } 
         </script>
     </body>
 </html>

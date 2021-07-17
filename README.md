@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.27: Added pronunciation w/ audio file of my name. 
 - 0.26: Added cover image; changed path to `og:image`.
 - 0.25.13: Text changes.
 - 0.25.12: Added new certificate.
@@ -99,3 +100,5 @@
 - Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
 - Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
+- Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp)
+- Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba)

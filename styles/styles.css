@@ -162,6 +162,10 @@
     content: "\e902";
 }
 
+.icon-play:before {
+    content: "\f144";
+}
+
 /* palette */
 
 :root {
@@ -354,6 +358,7 @@ a.external:after {
     background-clip: content-box;
 }
 
+#t-zero,
 #t-one,
 #t-two,
 #t-three {
@@ -372,6 +377,7 @@ a.external:after {
         /* reset */
     }
 
+    #t-zero, 
     #t-one,
     #t-two,
     #t-three {
@@ -380,6 +386,22 @@ a.external:after {
         /* reset */
         background: none;
         /* reset */
+    }
+}
+
+#playAudio {
+    background-color: var(--light-background);
+    color: var(--light-background-font);
+    border-color: var(--light-background-font);
+    cursor: pointer; 
+    font-family: var(--font);
+}
+
+@media (prefers-color-scheme: dark) {
+    #playAudio {
+        background-color: var(--dark-background);
+        color: var(--dark-background-font);
+        border-color: var(--dark-background-font);
     }
 }
 
