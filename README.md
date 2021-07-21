@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.27.1: Tiny fixes to Open Graph meta tags.
 - 0.27: Added pronunciation w/ audio file of my name. 
 - 0.26: Added cover image; changed path to `og:image`.
 - 0.25.13: Text changes.
