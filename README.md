@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.28: Added `bits.js` file to control scripts from one place; changing color of console message depending on light/dark mode; code looks a bit cleaner.
 - 0.27.1: Tiny fixes to Open Graph meta tags.
 - 0.27: Added pronunciation w/ audio file of my name. 
 - 0.26: Added cover image; changed path to `og:image`.
