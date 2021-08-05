@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.29: Added background pattern. 
 - 0.28: Added `bits.js` file to control scripts from one place; changing color of console message depending on light/dark mode; code looks a bit cleaner.
 - 0.27.1: Tiny fixes to Open Graph meta tags.
 - 0.27: Added pronunciation w/ audio file of my name. 
@@ -94,7 +95,7 @@
 ## Acknowledgements
 
 - Inspired by [Thom's website](https://www.thomkrupa.com/)
-- [Shape divider](https://www.shapedivider.app/)
+- [Shape divider in footer](https://www.shapedivider.app/)
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
 - [HTML Formatter](https://webformatter.com/html)
 - Sitemap for Google Search Console created with: [XML-Sitemaps](https://www.xml-sitemaps.com/)
@@ -104,3 +105,4 @@
 - Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
 - Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp)
 - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba)
+- Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
