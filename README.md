@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.30: Added `noscript` fallback for audio file when JavaScript is turned off / blocked; tweaked Recommendations page to hide "automagically updated (...)" text when JavaScript is off; simplified & changed colors in the palette; added indentation in Toolstack section so it's easier to read; improved scrollbar's look in dark mode.
 - 0.29: Added background pattern. 
 - 0.28: Added `bits.js` file to control scripts from one place; changing color of console message depending on light/dark mode; code looks a bit cleaner.
 - 0.27.1: Tiny fixes to Open Graph meta tags.
@@ -106,3 +107,4 @@
 - Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp)
 - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba)
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
+= [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/)
