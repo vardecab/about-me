@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.30.3: Removed URL to Instagram from main page.
 - 0.30.2: Text tweaks.
 - 0.30.1: Small tweaks to background pattern.
 - 0.30: Added `noscript` fallback for audio file when JavaScript is turned off / blocked; tweaked Recommendations page to hide "automagically updated (...)" text when JavaScript is off; simplified & changed colors in the palette; added indentation in Toolstack section so it's easier to read; improved scrollbar's look in dark mode.
