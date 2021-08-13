@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.30.4: Added Stripe URL. 
 - 0.30.3: Removed URL to Instagram from main page.
 - 0.30.2: Text tweaks.
 - 0.30.1: Small tweaks to background pattern.

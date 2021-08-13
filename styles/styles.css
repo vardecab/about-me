@@ -653,3 +653,7 @@ footer {
 .icon-play:before {
     content: "\f144";
 }
+
+.icon-stripe:before {
+    content: "\f1f5";
+}
