@@ -88,7 +88,7 @@ header nav a {
     display: inline-block;
 }
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 680px) {
     /* header nav a:first-child {
         display: none;
     } */
@@ -122,13 +122,13 @@ header nav a+a {
     margin-left: 1.5em;
 }
 
-@media only screen and (max-width: 574px) {
+@media only screen and (max-width: 680px) {
     header nav a+a {
         margin-left: 0em;
     }
 }
 
-nav a:not(#active) {
+nav a:not(.active) {
     /** NOTE: underline active tab in nav */
     text-decoration: none;
 }
@@ -237,6 +237,20 @@ a.external:after {
         /* reset */
     }
 }
+
+#reviewsNumber {
+    vertical-align: super;
+    display: inline-block; /** NOTE: trick to remove underline */
+    margin-left: 0.5em;
+}
+
+@media only screen and (max-width: 680px) {
+    #reviewsNumber {
+        display: none; /** NOTE: doesn't look good on mobile as for some reason `vertical-align: super;` doesn't work */
+    }
+}
+
+/* -------------- audio ------------- */
 
 #playAudio {
     background-color: var(--light);
