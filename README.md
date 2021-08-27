@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.31.1: Added a new review.
 - 0.31: Added # of reviews to the nav; improved the look of nav on devices with width < 680 px; executing JavaScript only after `DOMContentLoaded`; deferred load of `bits.js`.
 - 0.30.4: Added Stripe URL. 
 - 0.30.3: Removed URL to Instagram from main page.
