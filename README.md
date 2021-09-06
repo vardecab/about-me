@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.32: Updated a lot of text.
 - 0.31.1: Added a new review.
 - 0.31: Added # of reviews to the nav; improved the look of nav on devices with width < 680 px; executing JavaScript only after `DOMContentLoaded`; deferred load of `bits.js`.
 - 0.30.4: Added Stripe URL. 

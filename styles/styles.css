@@ -57,7 +57,7 @@ body {
 
 #wrapper {
     padding: 10px 25px 40px;
-    max-width: 666px;
+    max-width: 666px; /* 😈 */
     text-align: justify;
 }
 
@@ -285,22 +285,17 @@ a {
     text-decoration: underline;
 } */
 
-/* #name, 
-.highlight { 
-    background-color: var(--accent);
-} */
-
-.highlight2 {
+.highlight {
     background-color: var(--accent);
 }
 
 @media (prefers-color-scheme: dark) {
-    .highlight2 {
+    .highlight {
         background-color: var(--accent);
         color: var(--dark);
     }
 
-    .highlight2>a.external:after {
+    .highlight>a.external:after {
         color: var(--dark);
     }
 }
@@ -338,13 +333,13 @@ a {
 }
 
 .gm-with-highlight {
-    text-decoration-color: var(--dark);
-    text-decoration-thickness: 20%;
+    /* text-decoration-color: var(--dark); */
+    /* text-decoration-thickness: 20%; */
 }
 
 @media (prefers-color-scheme: dark) {
     .gm-with-highlight {
-        text-decoration-color: transparent;
+        /* text-decoration-color: transparent; */
     }
 }
 
