@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.33: Small text tweak; changed meta description; changed headline; different selection color for highlighted words.
 - 0.32: Updated a lot of text.
 - 0.31.1: Added a new review.
 - 0.31: Added # of reviews to the nav; improved the look of nav on devices with width < 680 px; executing JavaScript only after `DOMContentLoaded`; deferred load of `bits.js`.

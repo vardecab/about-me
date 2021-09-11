@@ -197,6 +197,18 @@ a.external:after {
     }
 }
 
+.highlight::selection {
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+@media (prefers-color-scheme: dark) {
+    .highlight::selection {
+        background-color: var(--dark-light);
+        color: var(--dark);
+    }
+}
+
 /* ------------ tooltips ------------ */
 
 .tooltip {
