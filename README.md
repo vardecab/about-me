@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.34.1: Updated the headline; added a total number of certificates.
 - 0.34: Restyled certificate issuers' badges (added colors); reordered certificates; moved Certificates section higher in the hierarchy; changed Umbrella's URL to GitHub and removed its tooltip.
 - 0.33.1: Added a new review.
 - 0.33: Small text tweak; changed meta description; changed headline; different selection color for highlighted words.
