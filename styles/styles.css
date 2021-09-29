@@ -36,7 +36,7 @@ html {
 body {
     font-family: var(--font);
     color: var(--dark);
-    line-height: 1.5;
+    line-height: 1.75;
     margin: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
