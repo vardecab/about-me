@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.35.2: Added a new certificate.
 - 0.35.1: Added new certificates; increased `line-height`; text changes; improved `alt` text for cover photo.
 - 0.35: Added new certificate; automatically counting number of certificates.
 - 0.34.2: Added new certificates; text changes.
