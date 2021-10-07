@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.36.2: Text changes.
 - 0.36.1: Updated preso URL.
 - 0.36: Added `meta name="apple-mobile-web-app-status-bar-style"` for Safari @ iOS 15; text changes; added new certificates.
 - 0.35.2: Added a new certificate.
