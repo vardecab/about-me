@@ -10,9 +10,17 @@
 
 ## Release History
 
+- 0.36: Added `meta name="apple-mobile-web-app-status-bar-style"` for Safari @ iOS 15; text changes; added new certificates.
 - 0.35.2: Added a new certificate.
 - 0.35.1: Added new certificates; increased `line-height`; text changes; improved `alt` text for cover photo.
 - 0.35: Added new certificate; automatically counting number of certificates.
+
+<details>
+
+<summary>
+Click to see all updates < 0.35
+</summary>
+
 - 0.34.2: Added new certificates; text changes.
 - 0.34.1: Updated the headline; added a total number of certificates.
 - 0.34: Restyled certificate issuers' badges (added colors); reordered certificates; moved Certificates section higher in the hierarchy; changed Umbrella's URL to GitHub and removed its tooltip.
@@ -108,7 +116,17 @@
 - 0.1.1: Added missing URLs.
 - 0.1: Initial release.
 
+</details>
+
+<br>
+
 ## Acknowledgements
+
+<details>
+
+<summary>
+Click to see
+</summary>
 
 - Inspired by [Thom's website](https://www.thomkrupa.com/)
 - [Shape divider in footer](https://www.shapedivider.app/)
@@ -123,3 +141,5 @@
 - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba)
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
 = [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+</details>
