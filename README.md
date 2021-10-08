@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.37: Fixed `soup.select`'s to scrape #s properly in `autoRating` due to a change in GrowthMentor's page DOM.   
 - 0.36.2: Text changes.
 - 0.36.1: Updated preso URL.
 - 0.36: Added `meta name="apple-mobile-web-app-status-bar-style"` for Safari @ iOS 15; text changes; added new certificates.

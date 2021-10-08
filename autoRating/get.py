@@ -37,7 +37,7 @@ soup = BeautifulSoup(page, 'html.parser') # parse the page
 # === get # of sessions ===
 
 print('Getting # of sessions...')
-get_sessions = soup.select("body > div > div.profile-header.mb-4 > div > div > div.profile-stats > div > div > div > div:nth-child(2) > div > div:nth-child(2) > h6") # look at surrounding HTML content 
+get_sessions = soup.select("body > div > div > div > div.profile-header.tw-mb-4 > div > div > div.profile-stats > div > div > div > div:nth-child(2) > div > div:nth-child(2) > h6") # look at surrounding HTML content 
 value = str(get_sessions) # convert list to string so it can be taken by regex
 sessions = re.search("(?<=\>)(.*?)(?=\<)", value) # extract number 
 sessions = sessions.group() # returns the part of the string where there was a match
@@ -49,7 +49,7 @@ with open('./sessions.txt', 'w') as file_sessions: # write # of sessions to .txt
 # === get rating ===
 
 print('Getting rating...')
-get_rating = soup.select("body > div > div.profile-header.mb-4 > div > div > div.profile-stats > div > div > div > div:nth-child(2) > div > div:nth-child(3) > h6") # look at surrounding HTML content 
+get_rating = soup.select("body > div > div > div > div.profile-header.tw-mb-4 > div > div > div.profile-stats > div > div > div > div:nth-child(2) > div > div:nth-child(3) > h6") # look at surrounding HTML content 
 value = str(get_rating) # convert list to string so it can be taken by regex
 rating = re.search("(?<=\>)(.*?)(?=\<)", value) # extract number 
 rating = rating.group() # returns the part of the string where there was a match
