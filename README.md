@@ -10,21 +10,22 @@
 
 ## Release History
 
+- 0.37.2: Added new certificates.
 - 0.37.1: Added new certificates.
 - 0.37: Fixed `soup.select`'s to scrape #s properly in `autoRating` due to a change in GrowthMentor's page DOM.   
 - 0.36.2: Text changes.
 - 0.36.1: Updated preso URL.
 - 0.36: Added `meta name="apple-mobile-web-app-status-bar-style"` for Safari @ iOS 15; text changes; added new certificates.
-- 0.35.2: Added a new certificate.
-- 0.35.1: Added new certificates; increased `line-height`; text changes; improved `alt` text for cover photo.
-- 0.35: Added new certificate; automatically counting number of certificates.
 
 <details>
 
 <summary>
-Click to see all updates < 0.35
+Click to see all updates < 0.36
 </summary>
 
+- 0.35.2: Added a new certificate.
+- 0.35.1: Added new certificates; increased `line-height`; text changes; improved `alt` text for cover photo.
+- 0.35: Added new certificate; automatically counting number of certificates.
 - 0.34.2: Added new certificates; text changes.
 - 0.34.1: Updated the headline; added a total number of certificates.
 - 0.34: Restyled certificate issuers' badges (added colors); reordered certificates; moved Certificates section higher in the hierarchy; changed Umbrella's URL to GitHub and removed its tooltip.
