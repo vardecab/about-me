@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.37.3: Added new certificates; text changes.
 - 0.37.2: Added new certificates.
 - 0.37.1: Added new certificates.
 - 0.37: Fixed `soup.select`'s to scrape #s properly in `autoRating` due to a change in GrowthMentor's page DOM.   
