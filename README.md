@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.37.4: Added a new certificate.
 - 0.37.3: Added new certificates; text changes.
 - 0.37.2: Added new certificates.
 - 0.37.1: Added new certificates.
