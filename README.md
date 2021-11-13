@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.38: Simplified homepage; changed main font; played around with `word-spacing`; text changes; changed Stripe URL; added sticky footer.
 - 0.37.4: Added a new certificate.
 - 0.37.3: Added new certificates; text changes.
 - 0.37.2: Added new certificates.
