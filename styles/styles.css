@@ -91,7 +91,7 @@ header nav a {
     display: inline-block;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 850px) {
     /* header nav a:first-child {
         display: none;
     } */
@@ -102,9 +102,9 @@ header nav a {
         line-height: 2.5;
     }
 
-    ul {
-        margin-left: -8% !important;
-    }
+    /* ul {
+        margin-left: -6% !important;
+    } */
 }
 
 h1 > a {
@@ -123,10 +123,10 @@ h1 > a {
 }
 
 header nav a+a {
-    margin-left: 1.5em;
+    margin-left: 0.7em;
 }
 
-@media only screen and (max-width: 680px) {
+@media only screen and (max-width: 880px) {
     header nav a+a {
         margin-left: 0em;
     }
@@ -139,8 +139,14 @@ nav a:not(.active) {
 
 ul {
     list-style: none;
-    margin-left: -4%;
+    margin-left: -2.5rem;
     margin-top: -0%;
+}
+
+@media only screen and (max-width: 510px) {
+ul {
+    /* margin-left: -10rem; */
+}
 }
 
 .responsiveImage {
@@ -254,17 +260,17 @@ a.external:after {
     }
 }
 
-#reviewsNumber {
+.smallNavNumber {
     vertical-align: super;
     display: inline-block; /** NOTE: trick to remove underline */
     margin-left: 0.5em;
 }
 
-@media only screen and (max-width: 680px) {
-    #reviewsNumber {
-        display: none; /** NOTE: doesn't look good on mobile as for some reason `vertical-align: super;` doesn't work */
-    }
-}
+/* @media only screen and (max-width: 680px) { */
+    /* #reviewsNumber { */
+        /* display: none; * NOTE: doesn't look good on mobile as for some reason `vertical-align: super;` doesn't work */
+    /* } */
+/* } */
 
 /* -------------- audio ------------- */
 
@@ -457,6 +463,7 @@ a {
 footer {
     position: absolute;
     width: 100%;
+    display: none;
 
 }
 /** NOTE: Anything high */

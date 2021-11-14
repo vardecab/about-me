@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.40: Hid the footer due to bugs; moved certificates to separate subpage; fixed `margin-left` for lists.
 - 0.39.1: Added 'Hello'. 
 - 0.39: Re-wrote `autoRating` after GrowthMentor published new version of Mentor pages.
 - 0.38: Simplified homepage; changed main font; played around with `word-spacing`; text changes; changed Stripe URL; added sticky footer.
