@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.39: Re-wrote `autoRating` after GrowthMentor published new version of Mentor pages.
 - 0.38: Simplified homepage; changed main font; played around with `word-spacing`; text changes; changed Stripe URL; added sticky footer.
 - 0.37.4: Added a new certificate.
 - 0.37.3: Added new certificates; text changes.

@@ -73,7 +73,7 @@
                         .then(response => response.text())
                         .then(rating => {
                             rating = parseFloat(rating) /* format: # instead of #.## // removing trailing zeros */
-                            if (rating == 5.00) {
+                            if (rating == 5) {
                                 document.getElementById("rating").textContent = 'Perfect rating of ' + rating;
                             }
                             else if (rating >= 4.5 && rating < 5) {
@@ -123,7 +123,7 @@
                 <div class="removeRating">
 
                     <span class="highlight2">
-                        <span id="rating"></span> <i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>. 
+                        <span id="rating"></span> <i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i><i class="icon-star"></i> from <span id="sessions"></span> sessions on <a href="https://app.growthmentor.com/mentors/kuba-rdzak?ref=kubardzak" target="_blank" class="external gm-with-highlight">GrowthMentor</a>. 
                     </span>
                 
                     <br>
