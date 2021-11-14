@@ -10,8 +10,16 @@
 
 ## Release History
 
+- 0.39.1: Added 'Hello'. 
 - 0.39: Re-wrote `autoRating` after GrowthMentor published new version of Mentor pages.
 - 0.38: Simplified homepage; changed main font; played around with `word-spacing`; text changes; changed Stripe URL; added sticky footer.
+
+<details>
+
+<summary>
+Click to see all updates < 0.38
+</summary>
+
 - 0.37.4: Added a new certificate.
 - 0.37.3: Added new certificates; text changes.
 - 0.37.2: Added new certificates.
@@ -20,13 +28,6 @@
 - 0.36.2: Text changes.
 - 0.36.1: Updated preso URL.
 - 0.36: Added `meta name="apple-mobile-web-app-status-bar-style"` for Safari @ iOS 15; text changes; added new certificates.
-
-<details>
-
-<summary>
-Click to see all updates < 0.36
-</summary>
-
 - 0.35.2: Added a new certificate.
 - 0.35.1: Added new certificates; increased `line-height`; text changes; improved `alt` text for cover photo.
 - 0.35: Added new certificate; automatically counting number of certificates.
