@@ -60,13 +60,13 @@ body {
 
 #wrapper {
     padding: 10px 25px 40px;
-    max-width: 666px; /* 😈 */
+    max-width: 677px;
     text-align: justify;
 }
 
 @media only screen and (min-width: 574px) {
     #wrapper {
-        padding: 40px 10%;
+        padding: 40px 5%;
     }
 }
 
@@ -141,6 +141,12 @@ ul {
     list-style: none;
     margin-left: -2.5rem;
     margin-top: -0%;
+}
+
+.experienceList {
+    list-style: circle;
+    margin-left: 0;
+    margin-top: 0;
 }
 
 @media only screen and (max-width: 510px) {
