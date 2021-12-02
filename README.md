@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 0.42: Switched to centered layout.
 - 0.41: Added new workplace; increase `wrapper` width; changed numbers from GrowthMentor; changed unordered list style.
 - 0.40: Hid the footer due to bugs; moved certificates to separate subpage; fixed `margin-left` for lists.
 - 0.39.1: Added 'Hello'. 
