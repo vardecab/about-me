@@ -10,16 +10,18 @@
 
 ## Release History
 
-- 1.0.3: Increased `line-height`; text tweak; logo position tweaks; PageSpeed improvements: compressed images.
-- 1.0.2: Added text on hover (with `title`) to social media links.
-- 1.0.1: Small tweak to how highlighted words look like.
-- 1.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
+- 2.0.3: Increased `line-height`; text tweak; logo position tweaks; PageSpeed improvements: compressed images.
+- 2.0.2: Added text on hover (with `title`) to social media links.
+- 2.0.1: Small tweak to how highlighted words look like.
+- 2.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
 
 <details>
 
 <summary>
-Click to see all updates < 1.0.0
+Click to see all updates < 2.0.0
 </summary>
+
+v1
 
 - 0.42: Switched to centered layout.
 - 0.41: Added new workplace; increase `wrapper` width; changed numbers from GrowthMentor; changed unordered list style.
