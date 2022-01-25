@@ -4,11 +4,19 @@
 
 ![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
 
-## PageSpeed Insights
+<!-- ## PageSpeed Insights -->
 
-![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png)
+<!-- ![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png) -->
 
 ## Release History
+
+- 1.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
+
+<details>
+
+<summary>
+Click to see all updates < 1.0.0
+</summary>
 
 - 0.42: Switched to centered layout.
 - 0.41: Added new workplace; increase `wrapper` width; changed numbers from GrowthMentor; changed unordered list style.
@@ -16,13 +24,6 @@
 - 0.39.1: Added 'Hello'. 
 - 0.39: Re-wrote `autoRating` after GrowthMentor published new version of Mentor pages.
 - 0.38: Simplified homepage; changed main font; played around with `word-spacing`; text changes; changed Stripe URL; added sticky footer.
-
-<details>
-
-<summary>
-Click to see all updates < 0.38
-</summary>
-
 - 0.37.4: Added a new certificate.
 - 0.37.3: Added new certificates; text changes.
 - 0.37.2: Added new certificates.
@@ -141,18 +142,20 @@ Click to see all updates < 0.38
 Click to see
 </summary>
 
-- Inspired by [Thom's website](https://www.thomkrupa.com/)
-- [Shape divider in footer](https://www.shapedivider.app/)
+- Template used: [Personal](https://bootstrapmade.com/personal-free-resume-bootstrap-template/)
+<!-- - Inspired by [Thom's website](https://www.thomkrupa.com/) -->
+<!-- - [Shape divider in footer](https://www.shapedivider.app/) -->
 - [HTML Validator](https://www.freeformatter.com/html-validator.html)
-- [HTML Formatter](https://webformatter.com/html)
+<!-- - [HTML Formatter](https://webformatter.com/html) -->
 - Sitemap for Google Search Console created with: [XML-Sitemaps](https://www.xml-sitemaps.com/)
 - Icons used: [Font Awesome](https://fontawesome.com/)
 - Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
 - Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
-- Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp)
-- Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba)
+- Converted to WebP using: [AnyWebP](https://anywebp.com/convert-to-webp.html)
+<!-- - Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp) -->
+<!-- - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba) -->
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
-= [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/)
+<!-- = [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) -->
 
 </details>

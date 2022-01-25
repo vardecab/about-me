@@ -1,5 +1,6 @@
 # ------------- old files ------------ #
 _old
+assets/img/_old
 
 # --------------- misc --------------- #
 .DS_Store
@@ -21,3 +22,9 @@ images/*
 # --------- sections re-write -------- #
 index-sections.html
 styles/styles-sections.css
+
+# ---------------- v1 ---------------- #
+v1
+
+# ---------------- v2 ---------------- #
+_old-v2
