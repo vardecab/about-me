@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 1.0.1: Small tweak to how highlighted words look like.
 - 1.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
 
 <details>

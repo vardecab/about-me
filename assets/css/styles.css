@@ -199,8 +199,8 @@ h6 {
 	/* color: #fff; */
 	/* color: var(--light); */
 	/* border-bottom: 2px solid #ffdf3b; */
-	border-bottom: 2px solid var(--accent);
-	padding-bottom: 6px;
+	/* border-bottom: 2px solid var(--accent); */
+	/* padding-bottom: 6px; */
 }
 
 #header img {
