@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 2.0.4: Changed a tag for 1 photo.
 - 2.0.3: Increased `line-height`; text tweak; logo position tweaks; PageSpeed improvements: compressed images.
 - 2.0.2: Added text on hover (with `title`) to social media links.
 - 2.0.1: Small tweak to how highlighted words look like.
