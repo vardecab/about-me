@@ -9,7 +9,8 @@
 <!-- ![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png) -->
 
 ## Release History
-
+ 
+- 2.0.5: Changed a tag for 1 photo; removed 1 duplicated photo.
 - 2.0.4: Changed a tag for 1 photo.
 - 2.0.3: Increased `line-height`; text tweak; logo position tweaks; PageSpeed improvements: compressed images.
 - 2.0.2: Added text on hover (with `title`) to social media links.
