@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 1.0.3: Increased `line-height`; text tweak; logo position tweaks; PageSpeed improvements: compressed images.
 - 1.0.2: Added text on hover (with `title`) to social media links.
 - 1.0.1: Small tweak to how highlighted words look like.
 - 1.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
@@ -155,6 +156,7 @@ Click to see
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
 - Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
 - Converted to WebP using: [AnyWebP](https://anywebp.com/convert-to-webp.html)
+- Compressed images using: [WEBP Compressor](https://compress-online.com/compress-webp) & [Squoosh](https://squoosh.app)
 <!-- - Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp) -->
 <!-- - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba) -->
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
