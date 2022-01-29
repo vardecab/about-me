@@ -10,6 +10,7 @@
 
 ## Release History
  
+- 2.1.1: Fixed messed up CSS; lazy-loading enabled for additional photos.
 - 2.1: Removed Instagram links; changed photo name; added dynamic headline; cleaned up code; removed smiley logo; further PageSpeed improvements: deferring files & lazy-loading images; added easter egg.
 - 2.0.5: Changed a tag for 1 photo; removed 1 duplicated photo.
 - 2.0.4: Changed a tag for 1 photo.

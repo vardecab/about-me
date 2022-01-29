@@ -1918,10 +1918,13 @@ a {
 }
 
 @keyframes blink {
-	from, to { 
-		background-color: transparent 
+
+	from,
+	to {
+		background-color: transparent
 	}
-	50% { 
-		background-color: orange; 
+
+	50% {
+		background-color: orange;
 	}
 }
