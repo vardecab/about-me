@@ -23,7 +23,7 @@
 	--accent: #ffdf3b;
 	/* --font: "JetBrainsMono", monospace; */
 	--font: "GT Flexa Mono", monospace;
-	--font-header_logo: "Sweeneey", "GT Flexa Mono", monospace;
+	--font-header_logo: "Sweeneey", "GT Flexa Mono", sans-serif, monospace;
 	--light: #f3f3f3;
 	--dark: #0d1117;
 	--dark-light: #cccccc;
@@ -47,8 +47,8 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 0.9rem;
-	word-spacing: -0.1rem;
+	font-size: .9rem;
+	/* word-spacing: -0.1rem; */
 	/* reduces the space between words */
 	background-color: var(--light);
 	/** NOTE: SVG from http://www.heropatterns.com/ */
@@ -61,17 +61,17 @@ body {
 	vertical-align: middle;
 	width: 1.2em;
 	/* margin-bottom: 120px; */
-	/* padding-bottom: 1.7em; */
-	/* * NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
+/* padding-bottom: 1.7em; */
+/* * NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 /* } */
 
 #logo {
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
-    width: 1.25em;
-    padding-bottom: 0.25em;
-    /** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
+	text-decoration: none;
+	display: inline-block;
+	vertical-align: middle;
+	width: 1.25em;
+	padding-bottom: 0.25em;
+	/** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 }
 
 /* body::before {
@@ -460,7 +460,7 @@ h6 {}
 	left: 0;
 	bottom: 0;
 	background: rgba(0, 0, 0, 0.9);
-	color: var(--light);
+	color: var(--dark-light);
 	transition: 0.3s;
 	z-index: 999;
 	margin-top: 0;
@@ -498,7 +498,7 @@ h6 {}
 .navbar-mobile a:focus .active {
 	font-size: 16px;
 	position: relative;
-	color: var(--light) !important;
+	color: var(--dark-light) !important;
 }
 
 /*--------------------------------------------------------------
@@ -525,6 +525,7 @@ section.section-show {
 section .container {
 	/* background: rgba(0, 0, 0, 0.9); */
 	padding: 30px;
+	/* width: 777px; */
 }
 
 @media (max-width: 768px) {
@@ -538,7 +539,7 @@ section .container {
 }
 
 .count-box>p {
-	color: var(--light);
+	color: var(--dark-light);
 }
 
 .section-title h2 {
@@ -655,7 +656,7 @@ section .container {
 	display: block;
 	font-weight: 600;
 	/* color: #fff; */
-	color: var(--light);
+	color: var(--dark-light);
 }
 
 /* .counts .count-box {
@@ -725,7 +726,7 @@ section .container {
 	line-height: 1;
 	font-size: 16px;
 	font-family: var(--font);
-	color: var(--light);
+	color: var(--dark-light);
 }
 
 .interests .icon-box:hover {
@@ -802,7 +803,7 @@ section .container {
 	border-radius: 6px;
 	position: relative;
 	z-index: 1;
-	color: var(--light);
+	color: var(--dark-light);
 }
 
 .testimonials .swiper-pagination {
@@ -1449,12 +1450,12 @@ a.external:after {
 
 .highlight::selection {
 	background-color: var(--dark);
-	color: var(--light);
+	color: var(--dark-light);
 }
 
 @media (prefers-color-scheme: dark) {
 	.highlight::selection {
-		background-color: var(--light);
+		background-color: var(--dark-light);
 		color: var(--dark);
 	}
 }
@@ -1681,7 +1682,7 @@ a {
 .photos {}
 
 .certificateIssuer {
-	color: var(--light);
+	color: var(--dark-light);
 	border-radius: 25px;
 	font-size: 0.7rem;
 }
@@ -1859,7 +1860,7 @@ a {
 /** NOTE: The emerging W3C standard that is currently Firefox-only */
 * {
 	scrollbar-width: 10px;
-	scrollbar-color: var(--accent) var(--light);
+	scrollbar-color: var(--accent) var(--dark-light);
 }
 
 /** NOTE: Works on WebKit (Chrome/Edge/Safari) */
@@ -1868,7 +1869,7 @@ a {
 }
 
 *::-webkit-dark-light {
-	background: var(--light);
+	background: var(--dark-light);
 }
 
 *::-webkit-scrollbar-thumb {
@@ -1889,5 +1890,38 @@ a {
 @media (prefers-color-scheme: dark) {
 	a:hover {
 		color: var(--dark-light);
+	}
+}
+
+#headline_name {
+	/* background-image: linear-gradient(89.18deg, rgb(9, 96, 184) 17.08%, rgb(163, 3, 55) 55.53%, rgb(181, 132, 3) 99.11%);
+	background-color: initial;
+	-webkit-text-fill-color: transparent;
+	-webkit-background-clip: text; */
+	/* background: linear-gradient(89.18deg, #1D88F4 17.08%, #FC4380 55.53%, #FBBF24 99.11%); */
+	/* background: rgb(255, 223, 59);
+	background: linear-gradient(130deg, rgba(255, 223, 59, 1) 20%, rgba(255, 245, 196, 1) 70%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	display: inline-block;
+	white-space: nowrap;
+	color: rgb(178, 172, 162); */
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: orange;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color: orange; 
 	}
 }
