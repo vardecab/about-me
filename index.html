@@ -58,17 +58,15 @@
 
     <!-- ------- external files -------- -->
 
-    <script src="assets/js/bits.js"></script> <!-- custom scripts -->
+    <script src="assets/js/bits.min2.js"></script> <!-- custom scripts -->
     
-    <script src="assets/js/libraries/jquery-3.5.1.min.js"></script> <!-- jQuery -->
-    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap -->
-    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet"> <!-- icons -->
-    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> <!-- icons -->
-    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> <!-- lightbox -->
-    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet"> <!-- remix icons -->
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> <!-- testimonials -->
+    <script src="assets/js/libraries/jquery-3.5.1.min.js"></script> <!-- jQuery for dynamic headline -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> <!-- Bootstrap core -->
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> <!-- Lightbox for photos -->
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet"> <!-- Swiper for testimonials -->
     
-    <link href="assets/css/styles.css" rel="stylesheet"> <!-- main CSS file -->
+    <link href="assets/css/styles.min.css" rel="stylesheet"> <!-- main CSS file -->
+
   </head>
 
   <body>
@@ -82,16 +80,9 @@
             <!-- <img id="logo" src="assets/img/favicon/nerd-custom.png" alt="Emoji-like icon displaying a nerd, 🤓" /> -->
           </a>
         </h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="mr-auto"><img src="assets/img/favicon/nerd-custom.png" alt="" class="img-fluid"></a> -->
         <div id="intro">
           <h2>
             Hi! I'm <span class="highlight"><span id="dynamic_headline"></span></span><span id="dynamic_cursor"></span>
-            <!-- <noscript>
-            Hello! I'm <span class="highlight">Kuba</span> — data-driven <span class="highlight">Growth Marketer</span>,
-            5-star <span class="highlight">Growth Mentor</span>, efficient <span class="highlight">Media Buyer</span>
-            ($15MM) & certified <span class="highlight">Team Manager</span>.
-          </noscript> -->
           </h2>
         </div>
 
@@ -103,17 +94,14 @@
             <li><a class="nav-link" href="#resume">resume</a></li>
             <li><a class="nav-link" href="#services">hobbies</a></li>
             <li><a class="nav-link" href="#portfolio">photos</a></li>
-            <!-- <li><a class="nav-link" href="#contact">Contact</a></li> -->
           </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
-        </nav><!-- .navbar -->
+          <i class="icon-hamburger mobile-nav-toggle"></i>
+        </nav>
 
         <div class="social-links">
 
           <a href="https://m.me/kubardzak" target="_blank"> <i class="icon-facebook-messenger"
               title="Send me a message on Messenger"></i></a>
-
-          <!-- <a href="https://t.me/kilouniformbravoalpha" target="_blank"><i class="icon-telegram"></i></a> -->
 
           <a href="https://www.linkedin.com/in/KubaRdzak" target="_blank"><i class="icon-linkedin-in"
               title="Connect on LinkedIn"></i></a>
@@ -124,8 +112,6 @@
           <!-- <div class="social-links"> -->
           <a href="https://github.com/vardecab" target="_blank"><i class="icon-github"
               title="Check my projects on GitHub"></i></a>
-
-          <!-- <a href="https://www.instagram.com/outsmiler" target="_blank"><i class="icon-instagram" title="View photos on Instagram"></i></a> -->
 
           <a href="https://revolut.me/kubar" target="_blank"><i class="icon-hand-holding-usd-solid"
               title="Send money via Revolut"></i></a>
@@ -206,61 +192,29 @@
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
                 <img src="assets/img/logos/unilever.webp" loading="lazy">
-                <!-- <i class="bi bi-emoji-smile"></i> -->
-                <!-- <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1" -->
-                <!-- class="purecounter"></span> -->
-                <!-- <p>Happy Mentees</p> -->
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="52" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Certificates</p> -->
                 <img src="assets/img/logos/nestle.webp" loading="lazy">
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="72" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours of Sessions</p> -->
                 <img src="assets/img/logos/creditsuisse.webp" loading="lazy">
               </div>
             </div>
 
-
-
-            <!-- </div> -->
-
-            <!-- </div>
-
-      <div class="counts container"> -->
-
-            <!-- <div class="row"> -->
-
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
                 <img src="assets/img/logos/monzo.webp" loading="lazy">
-                <!-- <i class="bi bi-emoji-smile"></i> -->
-                <!-- <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1" -->
-                <!-- class="purecounter"></span> -->
-                <!-- <p>Happy Mentees</p> -->
               </div>
             </div>
 
-
-
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
-                class="purecounter"></span> -->
-                <!-- <p>Projects</p> -->
                 <img src="assets/img/logos/midfirst.webp" loading="lazy">
               </div>
             </div>
@@ -268,52 +222,28 @@
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
                 <img src="assets/img/logos/booking.webp" loading="lazy">
-                <!-- <i class="bi bi-emoji-smile"></i> -->
-                <!-- <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1" -->
-                <!-- class="purecounter"></span> -->
-                <!-- <p>Happy Mentees</p> -->
               </div>
             </div>
 
-            <!-- </div>
-        <div class="row"> -->
-
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="72" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Hours of Sessions</p> -->
                 <img src="assets/img/logos/taxfix.webp" loading="lazy">
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
-                class="purecounter"></span> -->
-                <!-- <p>Projects</p> -->
                 <img src="assets/img/logos/timeout.webp" loading="lazy">
               </div>
             </div>
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
               <div class="count-box clientLogos">
-                <!-- <i class="bi bi-award"></i>
-              <span data-purecounter-start="0" data-purecounter-end="52" data-purecounter-duration="1"
-                class="purecounter"></span>
-              <p>Certificates</p> -->
                 <img src="assets/img/logos/criteo.webp" loading="lazy">
               </div>
             </div>
           </div>
         </div>
-        <!-- </div> -->
-
-        <!-- </div> -->
-
-        <!-- </div> -->
 
         <!-- ======= Counts ======= -->
         <br>
@@ -327,8 +257,8 @@
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-emoji-smile-fill"></i>
-                <span data-purecounter-start="0" data-purecounter-end="102" data-purecounter-duration="1"
+                <i class="icon-smile-beam"></i>
+                <span data-purecounter-start="0" data-purecounter-end="100" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Happy Mentees</p>
               </div>
@@ -336,7 +266,7 @@
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-kanban-fill"></i>
+                <i class="icon-project-diagram"></i>
                 <span data-purecounter-start="0" data-purecounter-end="150" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Clients</p>
@@ -345,25 +275,17 @@
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-telephone-fill"></i>
+                <i class="icon-user-friends"></i>
                 <span data-purecounter-start="0" data-purecounter-end="72" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Hours of helping startups</p>
               </div>
             </div>
 
-            <!-- </div> -->
-
-            <!-- </div>End Counts -->
-
-            <!-- <div class="counts container"> -->
-
-            <!-- <div class="row"> -->
-
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-file-earmark-check-fill"></i>
-                <span data-purecounter-start="0" data-purecounter-end="36" data-purecounter-duration="1"
+                <i class="icon-user-graduate"></i>
+                <span data-purecounter-start="0" data-purecounter-end="39" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>CXL Certificates</p>
               </div>
@@ -371,7 +293,7 @@
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-people-fill"></i>
+                <i class="icon-users"></i>
                 <span data-purecounter-start="0" data-purecounter-end="7" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Biggest team I managed</p>
@@ -381,20 +303,16 @@
 
             <div class="col-lg-4 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-file-earmark-check-fill"></i>
-                <span data-purecounter-start="0" data-purecounter-end="52" data-purecounter-duration="1"
+                <i class="icon-user-graduate"></i>
+                <span data-purecounter-start="0" data-purecounter-end="55" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Certificates in total</p>
               </div>
             </div>
 
-
-            <!-- </div> -->
-
-            <!-- <div class="row"> -->
             <div class="col-lg-6 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-bank2"></i>
+                <i class="icon-piggy-bank"></i>
                 <span data-purecounter-start="0" data-purecounter-end="15000000" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>$$$ spent on ads</p>
@@ -403,7 +321,7 @@
 
             <div class="col-lg-6 col-md-6 mt-5 mt-md-10">
               <div class="count-box">
-                <i class="bi bi-currency-dollar"></i>
+                <i class="icon-money-check-alt"></i>
                 <span data-purecounter-start="0" data-purecounter-end="700000" data-purecounter-duration="1"
                   class="purecounter"></span>
                 <p>Biggest monthly budget</p>
@@ -422,73 +340,73 @@
           <div class="row">
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-mind-map" style="color: #ffbb2c;"></i>
+                <i class="icon-brain" style="color: #ffbb2c;"></i>
                 <h3>Growth Mindset</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-bar-chart-box-line" style="color: #5578ff;"></i>
+                <i class="icon-chart-line" style="color: #5578ff;"></i>
                 <h3>Data-driven approach</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-calendar-todo-line" style="color: #e80368;"></i>
+                <i class="icon-calendar-alt" style="color: #e80368;"></i>
                 <h3>Project & sprint management</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-device-fill" style="color: #e361ff;"></i>
+                <i class="icon-laptop-code" style="color: #e361ff;"></i>
                 <h3>Front web dev</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-database-2-line" style="color: #47aeff;"></i>
+                <i class="icon-cogs" style="color: #47aeff;"></i>
                 <h3>APIs, Automations</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-gradienter-line" style="color: #ffa76e;"></i>
+                <i class="icon-crosshairs" style="color: #ffa76e;"></i>
                 <h3>Go-To-Market & Product-Market-Fit</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-file-list-3-line" style="color: #11dbcf;"></i>
+                <i class="icon-pencil-alt" style="color: #11dbcf;"></i>
                 <h3>Ads copywriting</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-money-dollar-circle-fill" style="color: #4233ff;"></i>
+                <i class="icon-chart-bar" style="color: #4233ff;"></i>
                 <h3>Conversion Rate Optimization (CRO)</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-anchor-line" style="color: #b2904f;"></i>
+                <i class="icon-anchor" style="color: #b2904f;"></i>
                 <h3>Acquisition, paid ads</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-home-gear-fill" style="color: #b20969;"></i>
+                <i class="icon-wrench" style="color: #b20969;"></i>
                 <h3>Building landing pages</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-base-station-line" style="color: #ff5828;"></i>
+                <i class="icon-envelope-open-text" style="color: #ff5828;"></i>
                 <h3>E-mail marketing</h3>
               </div>
             </div>
             <div class="col-lg-4 col-md-4 mt-4">
               <div class="icon-box">
-                <i class="ri-fingerprint-line" style="color: #29cc61;"></i>
+                <i class="icon-fingerprint" style="color: #29cc61;"></i>
                 <h3>Conversion tracking, MMPs, TMSs</h3>
               </div>
             </div>
@@ -510,14 +428,14 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     Kuba is a great mentor! <span class="highlight">He has a wealth of knowledge and can provide advice
                       with examples from his experience at a dizzying rate!</span> His <span class="highlight">strategic
                       perspective followed by digging into tactics that can be tested</span> was really impressive - as
                     with anything in marketing, we don't know until we test. <span class="highlight">Kuba asks all the
                       right questions</span> to get the most out of a session. I have pages of notes for my next month's
                     experiments. Book with him and thank me later! 5*
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaVVIIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--fb1978dc0ffb3e02860a1b6773e6011f8f396119/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--78d607fe2e1db2da0c7004453e1c6d43e53bb331/LADDER%20event%20(resized%20for%20Slack)%20square.jpg"
@@ -529,13 +447,13 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     <span class="highlight">Kuba is an amazing person, who wants to help others to learn and become
                       better
                       as Growth Marketers.</span> He came very prepared to our session and <span class="highlight">had
                       so
                       much value and knowledge to share with me</span>. I highly recommend booking a session with him!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img src="https://lh3.googleusercontent.com/a-/AOh14GhvWE9fbkrma6LTHcyFOZANbYd1TL_En_jFRORX=s96-c"
                     class="testimonial-img" loading="lazy" alt="">
@@ -546,7 +464,7 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     Wish there was a 6th star to leave as a review. <span class="highlight">Highly highly recommend
                       having
                       a conversation with him, a real top class mentor!</span> Kuba was super go-out-of-the-way helpful
@@ -555,7 +473,7 @@
                       to gain max. value from the call.</span> (…) <span class="highlight">Came out feeling
                       both unstuck (after a week of being overwhelmed) and equipped with tactics, approaches,
                       methodologies, etc.</span> Thank you so so much.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb0FQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--8413eb88471d858fe836d2f079e748bc3d4490e2/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--7df52312c78b0d761c82d554707ffd70ebc97f31/Screen%20Shot%202020-09-16%20at%208.35.49%20AM.png"
@@ -567,11 +485,11 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     Kuba was awesome to chat too. <span class="highlight">Such great knowledge into all areas and very
                       helpful advice which we will use.</span> Will definitely be looking to book multiple more sessions
                     with him and dive a bit more deeper into things as we chat more
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBajRUIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--9f9b91def27b44a4bae63c6b1b621df0b537b578/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--78d607fe2e1db2da0c7004453e1c6d43e53bb331/maurice.jpg"
@@ -583,7 +501,7 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     <span class="highlight">The call with Kuba was easily worth hundreds if not thousands of
                       dollars.</span> I got super actionable tips on my account structure in Facebook Ads. We talked
                     about
@@ -592,7 +510,7 @@
                     all of these tips in the coming weeks and I'm sure it'll help us grow a lot more consistently.
                     Thanks
                     Kuba!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBc1FYIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--269ce8dbda3794d24e8b2d25f24b4fea35275327/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--78d607fe2e1db2da0c7004453e1c6d43e53bb331/DSC00102.jpg"
@@ -604,13 +522,13 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     Kuba really helped me out big time! I had been struggling getting conversion tracking for Google Ads
                     set up correctly for a few weeks. <span class="highlight">Kuba took the time to go through all the
                       settings in Google Tag Manager, Google Analytics and Google Ads with me and we even repeated the
                       process for my second website. He also shared some great resources so I can learn to do this stuff
                       myself.</span> Thanks so much :-)
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBb2dQIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--90708437d7944b822388a58ac1a468f7d0006ff8/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lKYW5CbFp3WTZCa1ZVT2hKeVpYTnBlbVZmZEc5ZlptbDBXd2RwQWl3QmFRSXNBUT09IiwiZXhwIjpudWxsLCJwdXIiOiJ2YXJpYXRpb24ifX0=--25983e528f934cd8f1d7af8f66a996847736e9e7/D90929A8-0FA3-4D83-80DF-C45B46E0EBF2_1_105_c.jpeg"
@@ -622,7 +540,7 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     Kuba was an absolute pleasure to speak with on our mentoring call. He was able to absorb very
                     quickly
                     he story of my mistake filled entrepreneurial journey so far and had several thoughts and
@@ -631,7 +549,7 @@
                       way to seeking roduct-market-fit</span>. Highly recommend any founder to reach out to Kuba, and I
                     do
                     plan to speak with him again soon.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbmt3IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--2fd4987e0f4455766ba209d55e0f1510be80d6aa/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--7df52312c78b0d761c82d554707ffd70ebc97f31/Craig%20Hill%20&%20Family%20(2).png"
@@ -643,7 +561,7 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     I just had my first mentor call on GrowthMentor with Kuba and it was great! <span
                       class="highlight">He
                       was very knowledgeable, friendly and so easy to talk to. I needed advice on marketing strategy, as
@@ -651,7 +569,7 @@
                     research
                     and work on, which is great! I really appreciate that he spent more time than scheduled to share his
                     feedback and I will definitely keep in touch for follow up advice.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdlF2IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--f4dda988a0dbaa06ad2afd81f3139dc98468ae02/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--7df52312c78b0d761c82d554707ffd70ebc97f31/1630878439084.jpeg"
@@ -663,14 +581,14 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     I could tell Kuba really took time to prepare for our call. <span class="highlight">He was able to
                       give really helpful advice and followed it up with resources that were not previously on my
                       radar.</span> Kuba reviewed our product and site and had loads of ideas to improve our social
                     proof
                     based upon what he has seen work with other product he has worked with. Excellent advice - Thank you
                     again Kuba
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcmdYIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--7e2ba84f95dc9be17c9b6157223f6c5b703d22f7/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--78d607fe2e1db2da0c7004453e1c6d43e53bb331/cw%20photo.jpg"
@@ -682,7 +600,7 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     <span class="highlight">Kuba is a really smart guy. It is not easy to process a lot of new
                       information
                       in real time, make an opinion and give the right advise. Kuba is able to do so and gave us a lot
@@ -693,7 +611,7 @@
                     relaxed till the last minute. <span class="highlight">Great expertise and great mentor.</span>
                     Thanks
                     Kuba!
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBdkFvIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--23221f30a7082f994e695e434c43e10fe0f469bf/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--7df52312c78b0d761c82d554707ffd70ebc97f31/bernhard.jpg"
@@ -705,13 +623,13 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     <span class="highlight">Excellent session! I got so much value from it. Kuba was super friendly and
                       patient (I had many questions).</span> He took the time to review our creative beforehand, shared
                     with me his framework to assess campaigns and structure them and <span class="highlight">gave me
                       tons
                       of tips and ideas to optimise and test.</span> I will def book a follow-up session with him.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBbjhxIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cae9b9ed772989835762da7674e7e4bf158af607/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJY0c1bkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--7df52312c78b0d761c82d554707ffd70ebc97f31/LK%20profile%20pic.jpeg"
@@ -723,14 +641,14 @@
               <div class="swiper-slide">
                 <div class="testimonial-item">
                   <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                    <i class="icon-quote-left"></i>
                     I had my first mentor call on GrowthMentor. It was absolutely amazing. The best part is that <span
                       class="highlight">Kuba had already done his research and came prepared with specific bullet
                       points.
                       He answered half my questions even before I asked. Very comfortable to talk to him.</span> I
                     highly
                     recommend him to anyone looking for some deep insights in Digital Marketing/Agency space.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                    <i class="icon-quote-right"></i>
                   </p>
                   <img
                     src="https://app.growthmentor.com/rails/active_storage/representations/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBaEljIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--a9113d18a769de8c18eceb61220ddddc39684c10/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaDdCem9MWm05eWJXRjBTU0lJYW5CbkJqb0dSVlE2RW5KbGMybDZaVjkwYjE5bWFYUmJCMmtDTEFGcEFpd0IiLCJleHAiOm51bGwsInB1ciI6InZhcmlhdGlvbiJ9fQ==--78d607fe2e1db2da0c7004453e1c6d43e53bb331/amar.jpg"
@@ -1769,12 +1687,12 @@
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-arch">arch</li>
               <li data-filter=".filter-nature">nature</li>
-              <li data-filter=".filter-people">people</li>
+              <li data-filter=".filter-arch">arch</li>
               <li data-filter=".filter-macro">macro</li>
               <li data-filter=".filter-cars">cars</li>
-              <li data-filter=".filter-planes">planes</li>
+              <li data-filter=".filter-planes">fly</li>
+              <li data-filter=".filter-people">people</li>
               <li data-filter=".filter-abstract">abstract</li>
             </ul>
           </div>
@@ -2439,6 +2357,20 @@
           </div>
           <!-- end -->
           <!-- start -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-cars">
+            <div class="portfolio-wrap">
+              <img src="assets/img/photos/cars/20190709_074821.webp" class="img-fluid" loading="lazy" alt="">
+              <div class="portfolio-info">
+                <h4>Bull</h4>
+                <div class="portfolio-links">
+                  <a href="assets/img/photos/cars/20190709_074821.webp" data-gallery="portfolioGallery"
+                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- end -->
+          <!-- start -->
           <div class="col-lg-4 col-md-6 portfolio-item filter-nature">
             <div class="portfolio-wrap">
               <img src="assets/img/photos/IMG_20200823_192755.webp" class="img-fluid" loading="lazy" alt="">
@@ -2614,20 +2546,6 @@
                 <h4>Heist</h4>
                 <div class="portfolio-links">
                   <a href="assets/img/photos/20190520_082403.webp" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- end -->
-          <!-- start -->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-cars">
-            <div class="portfolio-wrap">
-              <img src="assets/img/photos/cars/20190709_074821.webp" class="img-fluid" loading="lazy" alt="">
-              <div class="portfolio-info">
-                <h4>Anger</h4>
-                <div class="portfolio-links">
-                  <a href="assets/img/photos/cars/20190709_074821.webp" data-gallery="portfolioGallery"
                     class="portfolio-lightbox" title=""><i class="bx bx-plus"></i></a>
                 </div>
               </div>
@@ -3324,16 +3242,15 @@
     </section><!-- End Portfolio Section -->
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap core -->
+    <!-- /experience -->
+    <script defer src="assets/vendor/purecounter/purecounter.min.js"></script> <!-- counter -->
+    <script defer src="assets/vendor/swiper/swiper-bundle.min.js"></script> <!-- Swiper for testimonials-->
+    <!-- /photos -->
+    <script defer src="assets/vendor/glightbox/js/glightbox.min.js"></script> <!-- Lightbox for photos -->
+    <script defer src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script> <!-- filtering tags for photos -->
 
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script defer src="assets/js/main.js"></script> <!-- main JS File -->
 
   </body>
 

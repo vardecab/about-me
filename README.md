@@ -9,7 +9,8 @@
 <!-- ![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png) -->
 
 ## Release History
- 
+
+- 2.2: Changed all icons to Font Awesome to improve PageSpeed; cleaned code a bit; changed tags for Photos; changed numbers in counters; switched another 2 files to minimized versions; disabled some redundant scripts to lower # of loaded resources; `defer` enabled for scripts.
 - 2.1.1: Fixed messed up CSS; lazy-loading enabled for additional photos.
 - 2.1: Removed Instagram links; changed photo name; added dynamic headline; cleaned up code; removed smiley logo; further PageSpeed improvements: deferring files & lazy-loading images; added easter egg.
 - 2.0.5: Changed a tag for 1 photo; removed 1 duplicated photo.
@@ -151,21 +152,30 @@ v1
 Click to see
 </summary>
 
+### Core
+
 - Template used: [Personal](https://bootstrapmade.com/personal-free-resume-bootstrap-template/)
-<!-- - Inspired by [Thom's website](https://www.thomkrupa.com/) -->
-<!-- - [Shape divider in footer](https://www.shapedivider.app/) -->
-- [HTML Validator](https://www.freeformatter.com/html-validator.html)
-<!-- - [HTML Formatter](https://webformatter.com/html) -->
 - Sitemap for Google Search Console created with: [XML-Sitemaps](https://www.xml-sitemaps.com/)
 - Icons used: [Font Awesome](https://fontawesome.com/)
 - Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
-- Compressed image with: [TinyPNG](https://tinypng.com/) & [Compressor.io](https://compressor.io/)
+- Compressed images with: [TinyPNG](https://tinypng.com/), [Compressor.io](https://compressor.io/), [WEBP Compressor](https://compress-online.com/compress-webp) & [Squoosh](https://squoosh.app)
 - Converted to WebP using: [AnyWebP](https://anywebp.com/convert-to-webp.html)
-- Compressed images using: [WEBP Compressor](https://compress-online.com/compress-webp) & [Squoosh](https://squoosh.app)
-<!-- - Playing audio file: [Audio play() Method](https://www.w3schools.com/jsref/met_audio_play.asp) -->
-<!-- - Audio file from: [Baby Names Pedia](https://www.babynamespedia.com/pronounce/Kuba) -->
+- Minified JS with [this](https://www.digitalocean.com/community/tools/minify)
+
+### Miscs
+
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
-<!-- = [WebAIM's Contrast Checker](https://webaim.org/resources/contrastchecker/) -->
+- [Dynamic headline effect](https://usefulangle.com/post/75/typing-effect-animation-javascript-css)
+- [ASCII text](http://www.patorjk.com/software/taag)
+
+### Libs
+
+- [PureCounter](https://github.com/srexi/purecounterjs)  
+- [Isotope](https://github.com/metafizzy/isotope)
+- [Swiper](https://swiperjs.com)
+- [jQuery](https://jquery.com)
+- [Bootstrap](https://getbootstrap.com)
+- [GLightbox](https://github.com/biati-digital/glightbox)
 
 </details>
