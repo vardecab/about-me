@@ -10,6 +10,7 @@
 
 ## Release History
 
+- 2.2.1: Updated location of Open Graph image.
 - 2.2: Changed all icons to Font Awesome to improve PageSpeed; cleaned code a bit; changed tags for Photos; changed numbers in counters; switched another 2 files to minimized versions; disabled some redundant scripts to lower # of loaded resources; `defer` enabled for scripts.
 - 2.1.1: Fixed messed up CSS; lazy-loading enabled for additional photos.
 - 2.1: Removed Instagram links; changed photo name; added dynamic headline; cleaned up code; removed smiley logo; further PageSpeed improvements: deferring files & lazy-loading images; added easter egg.
