@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.4.1: Fixed photo zoom icon not showing up.
 - 2.4: Moved from GitHub Pages to Netlify; removed lorem ipsum texts; updated URLs.
 - 2.3: Disabled border in Resume section; changed numbers in counters; tweaked texts; added certificates; re-enabled automatic certificates counting; added badges.
 - 2.2.1: Updated location of Open Graph image.
