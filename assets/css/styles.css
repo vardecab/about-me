@@ -847,15 +847,15 @@ section .container {
 	padding: 0 0 20px 20px;
 	margin-top: -2px;
 	/* border-left: 2px solid rgba(255, 255, 255, 0.2); */
-	border-left: 2px solid var(--dark);
+	/* border-left: 2px solid var(--dark); */ /* NOTE: for now disabled */
 	position: relative;
 }
 
-@media (prefers-color-scheme: dark) {
+/* @media (prefers-color-scheme: dark) {
 	.resume .resume-item {
-		border-left: 2px solid var(--dark-light);
-	}
-}
+		border-left: 2px solid var(--dark-light); /* NOTE: for now disabled */
+	/* } */
+/* } */
 
 .resume .resume-item h4 {
 	line-height: 18px;
@@ -1830,7 +1830,7 @@ a {
 .photos {}
 
 .certificateIssuer {
-	color: var(--dark-light);
+	color: var(--light);
 	border-radius: 25px;
 	font-size: 0.7rem;
 }
@@ -1899,6 +1899,14 @@ a {
 
 .MobileAction {
 	background-color: #ab4aed;
+	color: var(--dark-light);
+	/* color: var(--dark); */
+}
+
+@media (prefers-color-scheme: dark) {
+	.MobileAction {
+		color: var(--dark-light) !important; /* weird it doesn't work without !important */
+	}
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1983,6 +1991,8 @@ a {
 		color: var(--dark-light);
 	}
 }
+
+
 
 @media (prefers-color-scheme: dark) {
 	.GeekON {

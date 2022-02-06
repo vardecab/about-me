@@ -34,30 +34,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     /* ------- count certificates ------- */
     // marketing
-    // var listMarketingCertificates = document.getElementById('MarketingCertificates');
-    // var itemsMarketingCertificates = listMarketingCertificates.getElementsByTagName('li');
-    // var countMarketingCertificates = itemsMarketingCertificates.length; 
+    var listMarketingCertificates = document.getElementById('MarketingCertificates');
+    var itemsMarketingCertificates = listMarketingCertificates.getElementsByTagName('li');
+    var countMarketingCertificates = itemsMarketingCertificates.length; 
     // // console.log('%cMarketing certificates:' + " " + countMarketingCertificates, 'color: #009a00');
-    // document.getElementById("totalMarketingCertificates").textContent += "(" + countMarketingCertificates + ")";
+    document.getElementById("totalMarketingCertificates").textContent += "(" + countMarketingCertificates + ")";
 
     // management
-    // var listManagementCertificates = document.getElementById('ManagementCertificates');
-    // var itemsManagementCertificates = listManagementCertificates.getElementsByTagName('li');
-    // var countManagementCertificates = itemsManagementCertificates.length; 
+    var listManagementCertificates = document.getElementById('ManagementCertificates');
+    var itemsManagementCertificates = listManagementCertificates.getElementsByTagName('li');
+    var countManagementCertificates = itemsManagementCertificates.length; 
     // // console.log('%cManagement certificates:' + " " + countManagementCertificates, 'color: #009a00');
-    // document.getElementById("totalManagementCertificates").textContent += "(" + countManagementCertificates + ")";
+    document.getElementById("totalManagementCertificates").textContent += "(" + countManagementCertificates + ")";
 
     // other
-    // var listOtherCertificates = document.getElementById('OtherCertificates');
-    // var itemsOtherCertificates = listOtherCertificates.getElementsByTagName('li');
-    // var countOtherCertificates = itemsOtherCertificates.length; 
+    var listOtherCertificates = document.getElementById('OtherCertificates');
+    var itemsOtherCertificates = listOtherCertificates.getElementsByTagName('li');
+    var countOtherCertificates = itemsOtherCertificates.length; 
     // // console.log('%cOther certificates:' + " " + countOtherCertificates, 'color: #009a00');
-    // document.getElementById("totalOtherCertificates").textContent += "(" + countOtherCertificates + ")";
+    document.getElementById("totalOtherCertificates").textContent += "(" + countOtherCertificates + ")";
 
     // Σ
-    // var totalCertificates = countMarketingCertificates + countManagementCertificates + countOtherCertificates;
+    var totalCertificates = countMarketingCertificates + countManagementCertificates + countOtherCertificates;
     // // console.log('%cTotal # of certificates:' + " " + totalCertificates, 'color: #006700'); 
-    // document.getElementById("totalCertificates").textContent += "(" + totalCertificates + ")";
+    document.getElementById("totalCertificates").textContent += "(" + totalCertificates + ")";
 
     /* -------- dynamic headline -------- */
 
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var _CONTENT = [
         "data-driven Growth Marketer.",
         "5-star Growth Mentor.",
-        "efficient Media Buyer ($15MM).",
+        "efficient Media Buyer.",
         "certified Team Manager."
     ];
 
