@@ -2,7 +2,10 @@
 
 ## Status 
 
-![](https://img.shields.io/uptimerobot/status/m788095896-cdb18b31195bf8751e8346af)
+![](https://img.shields.io/uptimerobot/status/m790573379-e33750f4cf235edff869bb94)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fe8c385b-e7d3-4ee2-84f3-be892eedf5db/deploy-status)](https://app.netlify.com/sites/wizardly-yonath-9f0c6a/deploys)
+
+<!-- ![](https://img.shields.io/uptimerobot/ratio/7/https://img.shields.io/uptimerobot/status/m790573379-e33750f4cf235edff869bb94) -->
 
 <!-- ## PageSpeed Insights -->
 
@@ -10,6 +13,7 @@
 
 ## Release History
 
+- 2.4: Moved from GitHub Pages to Netlify; removed lorem ipsum texts; updated URLs.
 - 2.3: Disabled border in Resume section; changed numbers in counters; tweaked texts; added certificates; re-enabled automatic certificates counting; added badges.
 - 2.2.1: Updated location of Open Graph image.
 - 2.2: Changed all icons to Font Awesome to improve PageSpeed; cleaned code a bit; changed tags for Photos; changed numbers in counters; switched another 2 files to minimized versions; disabled some redundant scripts to lower # of loaded resources; `defer` enabled for scripts.
@@ -164,6 +168,7 @@ Click to see
 - Compressed images with: [TinyPNG](https://tinypng.com/), [Compressor.io](https://compressor.io/), [WEBP Compressor](https://compress-online.com/compress-webp) & [Squoosh](https://squoosh.app)
 - Converted to WebP using: [AnyWebP](https://anywebp.com/convert-to-webp.html)
 - Minified JS with [this](https://www.digitalocean.com/community/tools/minify)
+- [Hosted on Netlify](https://www.netlify.com)
 
 ### Miscs
 
