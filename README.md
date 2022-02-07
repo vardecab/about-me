@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.3: Disabled lazy loading via Lozad.
 - 2.6.2: Resized images to reduce their size, again.
 - 2.6.1: Resized images to reduce their size.
 - 2.6: Trying new lazy loading method [Lozad](https://apoorv.pro/lozad.js/); categorized certificates + some styling fixes.
@@ -181,7 +182,7 @@ v1
 - [jQuery](https://jquery.com)
 - Framework: [Bootstrap](https://getbootstrap.com)
 - Photo viewer: [GLightbox](https://github.com/biati-digital/glightbox)
-- Image lazy loading: [Lozad](https://apoorv.pro/lozad.js/)
+<!-- - Image lazy loading: [Lozad](https://apoorv.pro/lozad.js/) -->
 
 ### Miscs
 

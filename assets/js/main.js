@@ -245,7 +245,7 @@
   });
 
   /* --- initiate Lozad lazy loading -- */
-  const observer = lozad();
-  observer.observe();
+  // const observer = lozad();
+  // observer.observe();
 
 })()
