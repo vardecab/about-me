@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.1: Resized images to reduce their size.
 - 2.6: Trying new lazy loading method [Lozad](https://apoorv.pro/lozad.js/); categorized certificates + some styling fixes.
 - 2.5: Added new verification tag for Google Search Console; disabled lazy loading because it doesn't work for Photos in current implementation.
 
@@ -166,7 +167,7 @@ v1
 - Icons used: [Font Awesome](https://fontawesome.com/)
 - Icon font generator: [IcoMoon](https://icomoon.io/)
 - Fonts used: [JetBrains Mono](https://www.jetbrains.com/lp/mono/), [Sweeney](https://pixlr.com/stock/details/100400577-sweeney-font-family/)
-- Compressed images with: [TinyPNG](https://tinypng.com/), [Compressor.io](https://compressor.io/), [WEBP Compressor](https://compress-online.com/compress-webp) & [Squoosh](https://squoosh.app)
+- Compressed images with: [TinyPNG](https://tinypng.com/), [Compressor.io](https://compressor.io/), [WEBP Compressor](https://compress-online.com/compress-webp), [Bulk Resize Photos](https://bulkresizephotos.com/) & [Squoosh](https://squoosh.app)
 - Converted to WebP using: [AnyWebP](https://anywebp.com/convert-to-webp.html)
 - Minified JS with [this](https://www.digitalocean.com/community/tools/minify)
 - [Hosted on Netlify](https://www.netlify.com)
