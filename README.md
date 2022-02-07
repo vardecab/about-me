@@ -13,7 +13,18 @@
 
 ## Release History
 
+- 2.6: Trying new lazy loading method [Lozad](https://apoorv.pro/lozad.js/); categorized certificates + some styling fixes.
 - 2.5: Added new verification tag for Google Search Console; disabled lazy loading because it doesn't work for Photos in current implementation.
+
+<details>
+
+<summary>
+Click to see all updates < 2.5.0
+</summary>
+
+<br>
+v2
+
 - 2.4.1: Fixed photo zoom icon not showing up.
 - 2.4: Moved from GitHub Pages to Netlify; removed lorem ipsum texts; updated URLs.
 - 2.3: Disabled border in Resume section; changed numbers in counters; tweaked texts; added certificates; re-enabled automatic certificates counting; added badges.
@@ -27,12 +38,6 @@
 - 2.0.2: Added text on hover (with `title`) to social media links.
 - 2.0.1: Small tweak to how highlighted words look like.
 - 2.0.0: Changed template but aimed to achieve similar look with additional functionality; added new sections & elements; updated texts & links; removed (temporarily?) `autoRating`.
-
-<details>
-
-<summary>
-Click to see all updates < 2.0.0
-</summary>
 
 v1
 
@@ -154,12 +159,6 @@ v1
 
 ## Acknowledgements
 
-<details>
-
-<summary>
-Click to see
-</summary>
-
 ### Core
 
 - Template used: [Personal](https://bootstrapmade.com/personal-free-resume-bootstrap-template/)
@@ -172,19 +171,18 @@ Click to see
 - Minified JS with [this](https://www.digitalocean.com/community/tools/minify)
 - [Hosted on Netlify](https://www.netlify.com)
 
+### Libs
+
+- Counters: [PureCounter](https://github.com/srexi/purecounterjs)  
+- Photos gallery: [Isotope](https://github.com/metafizzy/isotope)
+- Section with recommendations: [Swiper](https://swiperjs.com)
+- [jQuery](https://jquery.com)
+- Framework: [Bootstrap](https://getbootstrap.com)
+- Photo viewer: [GLightbox](https://github.com/biati-digital/glightbox)
+- Image lazy loading: [Lozad](https://apoorv.pro/lozad.js/)
+
 ### Miscs
 
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
 - [Dynamic headline effect](https://usefulangle.com/post/75/typing-effect-animation-javascript-css)
 - [ASCII text](http://www.patorjk.com/software/taag)
-
-### Libs
-
-- [PureCounter](https://github.com/srexi/purecounterjs)  
-- [Isotope](https://github.com/metafizzy/isotope)
-- [Swiper](https://swiperjs.com)
-- [jQuery](https://jquery.com)
-- [Bootstrap](https://getbootstrap.com)
-- [GLightbox](https://github.com/biati-digital/glightbox)
-
-</details>
