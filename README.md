@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.2: Resized images to reduce their size, again.
 - 2.6.1: Resized images to reduce their size.
 - 2.6: Trying new lazy loading method [Lozad](https://apoorv.pro/lozad.js/); categorized certificates + some styling fixes.
 - 2.5: Added new verification tag for Google Search Console; disabled lazy loading because it doesn't work for Photos in current implementation.
