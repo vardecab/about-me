@@ -101,8 +101,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
             clearInterval(_INTERVAL_VAL);
             setTimeout(function () {
-                _INTERVAL_VAL = setInterval(Delete, 50);
-            }, 3000); // how long it displays one sentence 
+                _INTERVAL_VAL = setInterval(Delete, 10);
+            }, 1500); // how long it displays one sentence 
         }
     }
 
@@ -129,11 +129,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(function () {
                 _CURSOR.style.display = 'inline-block';
                 _INTERVAL_VAL = setInterval(Type, 100);
-            }, 200);
+            }, 100);
         }
     }
 
     // Start the typing effect on load
-    _INTERVAL_VAL = setInterval(Type, 100);
+    _INTERVAL_VAL = setInterval(Type, 50);
 
 });

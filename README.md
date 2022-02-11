@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.8: Reverted back some changes from the previous release.
 - 2.6.7: Tweaks to dynamic headline; moved scripts to `<head>` so they load before photos => improved UX.
 - 2.6.5: Added some more `title`s to links and photos.
 - 2.6.4: Updated `sitemap.xml`.
