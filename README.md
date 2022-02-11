@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.10: Deferring JS files switched backed on — reverted back to 2.6.3.
 - 2.6.9: Switched off deferring JS files.
 - 2.6.8: Reverted back some changes from the previous release.
 - 2.6.7: Tweaks to dynamic headline; moved scripts to `<head>` so they load before photos => improved UX.
