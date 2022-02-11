@@ -1886,13 +1886,13 @@ a {
 	color: rgb(178, 172, 162); */
 }
 
-#cursor {
+/* #dynamic_cursor {
 	display: inline-block;
 	vertical-align: middle;
 	width: 3px;
-	height: 50px;
-	background-color: orange;
-	animation: blink .75s step-end infinite;
+	height: 20px;
+	background-color: green;
+	animation: blink 1s step-end infinite;
 }
 
 @keyframes blink {
@@ -1903,9 +1903,9 @@ a {
 	}
 
 	50% {
-		background-color: orange;
+		background-color: red;
 	}
-}
+} */
 
 .icon-quote-left {
 	color: rgba(255, 255, 255, 0.25);

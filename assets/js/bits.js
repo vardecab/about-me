@@ -61,27 +61,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
     /* -------- dynamic headline -------- */
 
-    //Replace Text function		 
-    // $(function () {
-    //     count = 0;
-    //     wordsArray = ["cool", "amazing", "super"];
-    //     setInterval(function () {
-    //         count++;
-    //         $("#dynamic_headline").fadeOut(500, function () {
-    //             $(this).text(wordsArray[count % wordsArray.length]).fadeIn(500);
-    //         });
-    //     }, 2000);   
-    // });
-    //End Replace Text function
-
-    // v2
-
     // List of sentences
     var _CONTENT = [
-        "data-driven Growth Marketer.",
-        "5-star Growth Mentor.",
-        "efficient Media Buyer.",
-        "certified Team Manager."
+        "a data-driven Growth Marketer.",
+        "a 5-star Growth Mentor.",
+        "an efficient Media Buyer.",
+        "a certified Team Manager."
     ];
 
     // Current sentence being processed
@@ -99,11 +84,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // Cursor element 
     var _CURSOR = document.querySelector("#dynamic_cursor");
 
+    // text
+    var start ="I'm "
+
     // Implements typing effect
     function Type() {
         // Get substring with 1 characater added
         var text = _CONTENT[_PART].substring(0, _PART_INDEX + 1);
-        _ELEMENT.innerHTML = text;
+        _ELEMENT.innerHTML = start + text;
         _PART_INDEX++;
 
         // If full sentence has been displayed then start to delete the sentence after some time
@@ -114,7 +102,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             clearInterval(_INTERVAL_VAL);
             setTimeout(function () {
                 _INTERVAL_VAL = setInterval(Delete, 50);
-            }, 1000);
+            }, 3000); // how long it displays one sentence 
         }
     }
 
@@ -122,7 +110,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     function Delete() {
         // Get substring with 1 characater deleted
         var text = _CONTENT[_PART].substring(0, _PART_INDEX - 1);
-        _ELEMENT.innerHTML = text;
+        _ELEMENT.innerHTML = start + text;
         _PART_INDEX--;
 
         // If sentence has been deleted then start to display the next sentence
@@ -146,6 +134,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     }
 
     // Start the typing effect on load
-    _INTERVAL_VAL = setInterval(Type, 50);
+    _INTERVAL_VAL = setInterval(Type, 100);
 
 });
