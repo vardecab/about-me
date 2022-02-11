@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.6.5: Added some more `title`s to links and photos.
 - 2.6.4: Updated `sitemap.xml`.
 - 2.6.3: Disabled lazy loading via Lozad.
 - 2.6.2: Resized images to reduce their size, again.
