@@ -66,7 +66,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
         "a data-driven Growth Marketer.",
         "a 5-star Growth Mentor.",
         "an efficient Media Buyer.",
-        "a certified Team Manager."
+        "a certified Team Manager.",
+        "a geek with several (weird?) hobbies.",
+        "a (coding) puzzle solver.",
+        "a basketball player.",
+        "a (mobile) photographer."
     ];
 
     // Current sentence being processed

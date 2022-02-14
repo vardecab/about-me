@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.8: Added links to CXL badges so they lead to certificates @ Accredible; fixed spacing between sections in Experience; fixed spacing in Resume; added links to Minidegree certificates in Certificates section; added a few more sentences to dynamic headline.
 - 2.7: Added `robots.txt`; converted one last photo `.jpg` → `.WebP`; enabled `script defer` again...
 - 2.6.8-11: Looks like the culprit (and why there were so many patches) was the order of files in `<head>` (－‸ლ)
 - 2.6.7: Tweaks to dynamic headline; moved scripts to `<head>` so they load before photos => improved UX.
