@@ -1,0 +1,20 @@
+# disable images loaded from GrowthMentor
+# https://developers.google.com/search/docs/advanced/crawling/prevent-images-on-your-page#for-non-emergency-image-removal
+User-agent: Googlebot-Image
+Disallow: /*.jpg$
+User-agent: Googlebot-Image
+Disallow: /*.png$
+User-agent: Googlebot-Image
+Disallow: /*.jpeg$
+
+# sitemap
+Sitemap: https://kuba.rdzak.com/sitemap.xml
+
+#    $$\   $$\         $$\$$\                   $$$\   
+#    $$ |  $$ |        $$ $$ |                   \$$\  
+#    $$ |  $$ |$$$$$$\ $$ $$ |$$$$$$\        $$\  \$$\ 
+#    $$$$$$$$ $$  __$$\$$ $$ $$  __$$\       \__|  $$ |
+#    $$  __$$ $$$$$$$$ $$ $$ $$ /  $$ |            $$ |
+#    $$ |  $$ $$   ____$$ $$ $$ |  $$ |      $$\  $$  |
+#    $$ |  $$ \$$$$$$$\$$ $$ \$$$$$$  |      \__$$$  / 
+#    \__|  \__|\_______\__\__|\______/          \___/               

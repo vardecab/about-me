@@ -5,7 +5,7 @@
 ![](https://img.shields.io/uptimerobot/status/m790573379-e33750f4cf235edff869bb94)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/fe8c385b-e7d3-4ee2-84f3-be892eedf5db/deploy-status)](https://app.netlify.com/sites/wizardly-yonath-9f0c6a/deploys)
 
-<!-- ![](https://img.shields.io/uptimerobot/ratio/7/https://img.shields.io/uptimerobot/status/m790573379-e33750f4cf235edff869bb94) -->
+![](https://img.shields.io/uptimerobot/ratio/m790573379-e33750f4cf235edff869bb94)
 
 <!-- ## PageSpeed Insights -->
 
@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.7: Added `robots.txt`; converted one last photo `.jpg` → `.WebP`; enabled `script defer` again...
 - 2.6.8-11: Looks like the culprit (and why there were so many patches) was the order of files in `<head>` (－‸ლ)
 - 2.6.7: Tweaks to dynamic headline; moved scripts to `<head>` so they load before photos => improved UX.
 - 2.6.5: Added some more `title`s to links and photos.
