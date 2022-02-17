@@ -1,9 +1,3 @@
-/**
- * Template Name: Personal - v4.7.0
- * Template URL: https://bootstrapmade.com/personal-free-resume-bootstrap-template/
- * Author: BootstrapMade.com
- * License: https://bootstrapmade.com/license/
- */
 (function () {
   "use strict";
 
@@ -49,12 +43,12 @@
    */
   on('click', '.mobile-nav-toggle', function (e) {
     select('#navbar').classList.toggle('navbar-mobile')
-    this.classList.toggle('bi-list')
-    this.classList.toggle('bi-x')
+    this.classList.toggle('icon-hamburger')
+    this.classList.toggle('icon-window-close')
   })
 
   /**
-   * Scrool with ofset on links with a class name .scrollto
+   * Scroll with offset on links with a class name .scrollto
    */
   on('click', '#navbar .nav-link', function (e) {
     let section = select(this.hash)
@@ -75,8 +69,8 @@
       if (navbar.classList.contains('navbar-mobile')) {
         navbar.classList.remove('navbar-mobile')
         let navbarToggle = select('.mobile-nav-toggle')
-        navbarToggle.classList.toggle('bi-list')
-        navbarToggle.classList.toggle('bi-x')
+        navbarToggle.classList.toggle('icon-hamburger')
+        navbarToggle.classList.toggle('icon-window-close')
       }
 
       if (this.hash == '#header') {
@@ -140,28 +134,28 @@
   /**
    * Skills animation
    */
-  let skilsContent = select('.skills-content');
-  if (skilsContent) {
-    new Waypoint({
-      element: skilsContent,
-      offset: '80%',
-      handler: function (direction) {
-        let progress = select('.progress .progress-bar', true);
-        progress.forEach((el) => {
-          el.style.width = el.getAttribute('aria-valuenow') + '%'
-        });
-      }
-    })
-  }
+  // let skilsContent = select('.skills-content');
+  // if (skilsContent) {
+  //   new Waypoint({
+  //     element: skilsContent,
+  //     offset: '80%',
+  //     handler: function (direction) {
+  //       let progress = select('.progress .progress-bar', true);
+  //       progress.forEach((el) => {
+  //         el.style.width = el.getAttribute('aria-valuenow') + '%'
+  //       });
+  //     }
+  //   })
+  // }
 
   /**
    * Testimonials slider
    */
   new Swiper('.testimonials-slider', {
-    speed: 600,
+    speed: 500,
     loop: true,
     autoplay: {
-      delay: 5000,
+      delay: 6660,
       disableOnInteraction: false
     },
     slidesPerView: 'auto',
@@ -230,22 +224,18 @@
   /**
    * Portfolio details slider
    */
-  new Swiper('.portfolio-details-slider', {
-    speed: 400,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
-
-  /* --- initiate Lozad lazy loading -- */
-  // const observer = lozad();
-  // observer.observe();
+  // new Swiper('.portfolio-details-slider', {
+  //   speed: 400,
+  //   loop: true,
+  //   autoplay: {
+  //     delay: 5000,
+  //     disableOnInteraction: false
+  //   },
+  //   pagination: {
+  //     el: '.swiper-pagination',
+  //     type: 'bullets',
+  //     clickable: true
+  //   }
+  // });
 
 })()
