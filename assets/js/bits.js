@@ -64,13 +64,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // List of sentences
     var _CONTENT = [
         "a data-driven Growth Marketer.",
-        "a 5-star Growth Mentor.",
+        "a 5-star Startup Mentor.",
         "an efficient Media Buyer.",
         "a certified Team Manager.",
-        "a geek with several (weird?) hobbies.",
+        "a geek with lots of (weird?) hobbies.",
         "a (coding) puzzle solver.",
         "a basketball player.",
-        "a (mobile) photographer."
+        "a (mobile) photographer.",
+        "a cool guy :)"
     ];
 
     // Current sentence being processed

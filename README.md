@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.9.2: Tiny text tweaks.
 - 2.9.1: Fixes to Photos section because filters didn't work — updated `Isotope`, changed files' order, `min`ified and enabled `defer` in all remaining files; tweaked animations' speed; fixed menu button on mobile.
 - 2.9: Added new skills; added new icons; changed skills' icons' color.
 - 2.8: Added links to CXL badges so they lead to certificates @ Accredible; fixed spacing between sections in Experience; fixed spacing in Resume; added links to Minidegree certificates in Certificates section; added a few more sentences to dynamic headline.
