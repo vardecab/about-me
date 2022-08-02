@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.10: Changed texts; changed photo and favicons; added new photos; moved photos to a separate page to save bandwidth and improve loading speed.
 - 2.9.2: Tiny text tweaks.
 - 2.9.1: Fixes to Photos section because filters didn't work — updated `Isotope`, changed files' order, `min`ified and enabled `defer` in all remaining files; tweaked animations' speed; fixed menu button on mobile.
 - 2.9: Added new skills; added new icons; changed skills' icons' color.
@@ -198,3 +199,4 @@ v1
 - Background pattern from: [Hero Patterns](http://www.heropatterns.com/)
 - [Dynamic headline effect](https://usefulangle.com/post/75/typing-effect-animation-javascript-css)
 - [ASCII text](http://www.patorjk.com/software/taag)
+- [Favicon Generator](https://realfavicongenerator.net)
