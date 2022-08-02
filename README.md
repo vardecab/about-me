@@ -7,13 +7,13 @@
 
 ![](https://img.shields.io/uptimerobot/ratio/m790573379-e33750f4cf235edff869bb94)
 
-<!-- ## PageSpeed Insights -->
+## PageSpeed Insights
 
-<!-- ![](https://user-images.githubusercontent.com/6877391/119057749-57f46200-b9cd-11eb-97d8-96664bdd0281.png) -->
+![PageSpeed Insights](https://pagespeed-insights.herokuapp.com/?url=https://kuba.rdzak.com)
 
 ## Release History
 
-- 2.10.4: Regression fix: unable to filter photos in `photos.html`.
+- 2.10.4: Regression bug fix: unable to filter photos in `photos.html`.
 - 2.10.3: Disabled unused JS and CSS files in `photos.html`.
 - 2.10.2: Tiny text tweak.
 - 2.10.1: Optimised photos.
@@ -204,3 +204,5 @@ v1
 - [Dynamic headline effect](https://usefulangle.com/post/75/typing-effect-animation-javascript-css)
 - [ASCII text](http://www.patorjk.com/software/taag)
 - [Favicon Generator](https://realfavicongenerator.net)
+- [
+readme-pagespeed-insights](https://github.com/ankurparihar/readme-pagespeed-insights)
