@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.11: Lots of tiny fixes, mainly to the layout.
 - 2.10.4: Regression bug fix: unable to filter photos in `photos.html`.
 - 2.10.3: Disabled unused JS and CSS files in `photos.html`.
 - 2.10.2: Tiny text tweak.
