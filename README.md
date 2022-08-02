@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.10.4: Regression fix: unable to filter photos in `photos.html`.
 - 2.10.3: Disabled unused JS and CSS files in `photos.html`.
 - 2.10.2: Tiny text tweak.
 - 2.10.1: Optimised photos.
