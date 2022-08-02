@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.10.1: Optimised photos.
 - 2.10: Changed texts; changed photo and favicons; added new photos; moved photos to a separate page to save bandwidth and improve loading speed.
 - 2.9.2: Tiny text tweaks.
 - 2.9.1: Fixes to Photos section because filters didn't work — updated `Isotope`, changed files' order, `min`ified and enabled `defer` in all remaining files; tweaked animations' speed; fixed menu button on mobile.
