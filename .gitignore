@@ -5,11 +5,20 @@ assets/img/about/kuba-rdzak1.webp
 assets/img/about/kuba-rdzak2.webp
 assets/img/about/kuba-rdzak3.webp
 assets/img/about/kuba-rdzak4.webp
+assets/img/about/kuba-rdzak5.webp
 
 # --------------- misc --------------- #
 .DS_Store
 .vscode
 TODO
+
+# -------------- images -------------- #
+images/* 
+!images/KubaRdzak-cover-yellow_v4.jpg
+!images/KubaRdzak-cover-yellow_v5-compressed2.jpg
+
+# ---------------- v1 ---------------- #
+v1
 
 # ------------ autoRating ------------ #
 # Notion 
@@ -18,17 +27,9 @@ autorating/notion
 autorating/automate
 MentorProfilePage-211113.html
 
-# -------------- images -------------- #
-images/* 
-!images/KubaRdzak-cover-yellow_v4.jpg
-!images/KubaRdzak-cover-yellow_v5-compressed2.jpg
-
 # --------- sections re-write -------- #
 index-sections.html
 styles/styles-sections.css
-
-# ---------------- v1 ---------------- #
-v1
 
 # ---------------- v2 ---------------- #
 _old-v2

@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.13: Added logo to the header; updated `og:image`.
 - 2.12: Changed favicons.
 - 2.11: Lots of tiny fixes, mainly to the layout.
 - 2.10.4: Regression bug fix: unable to filter photos in `photos.html`.
