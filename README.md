@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.13.1: Added missing logo to the header on `photos.html`; fixed `og:image` on `photos.html`.
 - 2.13: Added logo to the header; updated `og:image`.
 - 2.12: Changed favicons.
 - 2.11: Lots of tiny fixes, mainly to the layout.

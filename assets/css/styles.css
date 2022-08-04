@@ -47,7 +47,7 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1rem; /* TODO: change */ 
+	font-size: 1rem; 
 	/* word-spacing: -0.1rem; */
 	/* reduces the space between words */
 	background-color: var(--light);
@@ -68,8 +68,7 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	width: 1.25em;
-	padding-bottom: 0.25em;
-	/** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
+	padding-bottom: 0.25em; /** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 } 
 
 .box-text {
@@ -116,16 +115,6 @@ h3,
 h4,
 h5,
 h6 {
-}
-
-/* resize profile picture */
-#profile_picture {
-	max-width: 20%;
-	height: auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 5%; /* make some space for text below */ 
 }
 
 .gradient {
