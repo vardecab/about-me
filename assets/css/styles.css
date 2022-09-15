@@ -47,7 +47,7 @@ body {
 	margin: 0;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	font-size: 1rem; 
+	font-size: 1rem;
 	/* word-spacing: -0.1rem; */
 	/* reduces the space between words */
 	background-color: var(--light);
@@ -56,8 +56,12 @@ body {
 }
 
 /* make content more centered */
-.container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1000px !important;
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+	max-width: 1000px !important;
 	/* NOTE: default:  
 	1320px @ _utilities.scss
 	*/
@@ -69,7 +73,7 @@ body {
 	vertical-align: middle;
 	width: 1.25em;
 	padding-bottom: 0.25em; /** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
-} 
+}
 
 .box-text {
 	margin-top: 5%;
@@ -1013,14 +1017,16 @@ section .container {
 	}
 }
 
-portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+portfolio #portfolio-flters li:hover,
+.portfolio #portfolio-flters li.filter-active {
 	background: #ffdf3b;
 }
 
 @media (prefers-color-scheme: dark) {
-	portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-	color: var(--dark);
-	}	
+	portfolio #portfolio-flters li:hover,
+	.portfolio #portfolio-flters li.filter-active {
+		color: var(--dark);
+	}
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1316,17 +1322,59 @@ a.external:after {
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-paypal:before {
+	content: "\f1ed";
+}
+.icon-cc-paypal:before {
+	content: "\f1f4";
+}
+.icon-stripe-s:before {
+	content: "\f42a";
+}
+.icon-envelope:before {
+	content: "\f0e0";
+}
+.icon-hand-holding-usd-solid:before {
+	content: "\e900";
+}
+.icon-comment-alt-smile:before {
+	content: "\e901";
+}
+.icon-star:before {
+	content: "\f005";
+}
 .icon-zoom:before {
 	content: "\f00e";
 }
+.icon-lock:before {
+	content: "\f023";
+}
+.icon-info-circle:before {
+	content: "\f05a";
+}
 .icon-crosshairs:before {
 	content: "\f05b";
+}
+.icon-eye-slash:before {
+	content: "\f070";
 }
 .icon-calendar-alt:before {
 	content: "\f073";
 }
 .icon-cogs:before {
 	content: "\f085";
+}
+.icon-trophy:before {
+	content: "\f091";
+}
+.icon-twitter:before {
+	content: "\f099";
+}
+.icon-facebook:before {
+	content: "\f09a";
+}
+.icon-github:before {
+	content: "\f09b";
 }
 .icon-globe:before {
 	content: "\f0ac";
@@ -1340,6 +1388,12 @@ a.external:after {
 .icon-flask:before {
 	content: "\f0c3";
 }
+.icon-pinterest:before {
+	content: "\f0d2";
+}
+.icon-linkedin-in:before {
+	content: "\f0e1";
+}
 .icon-sitemap:before {
 	content: "\f0e8";
 }
@@ -1348,6 +1402,9 @@ a.external:after {
 }
 .icon-quote-right:before {
 	content: "\f10e";
+}
+.icon-circle:before {
+	content: "\f111";
 }
 .icon-code:before {
 	content: "\f121";
@@ -1358,11 +1415,26 @@ a.external:after {
 .icon-anchor:before {
 	content: "\f13d";
 }
+.icon-play:before {
+	content: "\f144";
+}
 .icon-check-square:before {
 	content: "\f14a";
 }
+.icon-instagram:before {
+	content: "\f16d";
+}
+.icon-google:before {
+	content: "\f1a0";
+}
+.icon-reddit:before {
+	content: "\f1a1";
+}
 .icon-database:before {
 	content: "\f1c0";
+}
+.icon-stripe:before {
+	content: "\f1f5";
 }
 .icon-chart-pie:before {
 	content: "\f200";
@@ -1379,8 +1451,29 @@ a.external:after {
 .icon-map:before {
 	content: "\f279";
 }
+.icon-snapchat-ghost:before {
+	content: "\f2ac";
+}
+.icon-quora:before {
+	content: "\f2c4";
+}
+.icon-telegram:before {
+	content: "\f2c6";
+}
 .icon-pencil-alt:before {
 	content: "\f303";
+}
+.icon-external-link-alt:before {
+	content: "\f35d";
+}
+.icon-app-store-ios:before {
+	content: "\f370";
+}
+.icon-facebook-messenger:before {
+	content: "\f39f";
+}
+.icon-google-play:before {
+	content: "\f3ab";
 }
 .icon-microphone-alt:before {
 	content: "\f3c9";
@@ -1394,6 +1487,9 @@ a.external:after {
 .icon-piggy-bank:before {
 	content: "\f4d3";
 }
+.icon-seedling:before {
+	content: "\f4d8";
+}
 .icon-user-friends:before {
 	content: "\f500";
 }
@@ -1406,11 +1502,20 @@ a.external:after {
 .icon-project-diagram:before {
 	content: "\f542";
 }
+.icon-robot:before {
+	content: "\f544";
+}
 .icon-wallet:before {
 	content: "\f555";
 }
 .icon-fingerprint:before {
 	content: "\f577";
+}
+.icon-globe-africa:before {
+	content: "\f57c";
+}
+.icon-medal:before {
+	content: "\f5a2";
 }
 .icon-smile-beam:before {
 	content: "\f5b8";
@@ -1430,98 +1535,11 @@ a.external:after {
 .icon-search-dollar:before {
 	content: "\f688";
 }
-.icon-hamburger:before {
-	content: "\f805";
-}
-.icon-hand-holding-usd-solid:before {
-	content: "\e900";
-}
-.icon-comment-alt-smile:before {
-	content: "\e901";
-}
-.icon-star:before {
-	content: "\f005";
-}
-.icon-lock:before {
-	content: "\f023";
-}
-.icon-info-circle:before {
-	content: "\f05a";
-}
-.icon-eye-slash:before {
-	content: "\f070";
-}
-.icon-trophy:before {
-	content: "\f091";
-}
-.icon-twitter:before {
-	content: "\f099";
-}
-.icon-facebook:before {
-	content: "\f09a";
-}
-.icon-github:before {
-	content: "\f09b";
-}
-.icon-pinterest:before {
-	content: "\f0d2";
-}
-.icon-linkedin-in:before {
-	content: "\f0e1";
-}
-.icon-circle:before {
-	content: "\f111";
-}
-.icon-play:before {
-	content: "\f144";
-}
-.icon-instagram:before {
-	content: "\f16d";
-}
-.icon-google:before {
-	content: "\f1a0";
-}
-.icon-reddit:before {
-	content: "\f1a1";
-}
-.icon-stripe:before {
-	content: "\f1f5";
-}
-.icon-snapchat-ghost:before {
-	content: "\f2ac";
-}
-.icon-quora:before {
-	content: "\f2c4";
-}
-.icon-telegram:before {
-	content: "\f2c6";
-}
-.icon-external-link-alt:before {
-	content: "\f35d";
-}
-.icon-app-store-ios:before {
-	content: "\f370";
-}
-.icon-facebook-messenger:before {
-	content: "\f39f";
-}
-.icon-google-play:before {
-	content: "\f3ab";
-}
-.icon-seedling:before {
-	content: "\f4d8";
-}
-.icon-robot:before {
-	content: "\f544";
-}
-.icon-globe-africa:before {
-	content: "\f57c";
-}
-.icon-medal:before {
-	content: "\f5a2";
-}
 .icon-satellite-dish:before {
 	content: "\f7c0";
+}
+.icon-hamburger:before {
+	content: "\f805";
 }
 
 /* -------------- other ------------- */
