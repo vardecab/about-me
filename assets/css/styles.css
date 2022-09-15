@@ -1258,7 +1258,7 @@ a.external:after {
 
 .highlight::selection {
 	background-color: var(--dark);
-	color: var(--dark);
+	color: var(--accent);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -1289,6 +1289,10 @@ a.external:after {
 }
 
 .interests .icon-box h3::selection {
+	color: var(--dark);
+}
+
+.certificateIssuer::selection {
 	color: var(--dark);
 }
 

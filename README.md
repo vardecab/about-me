@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.16: Text updates; fixed highlighted selection colors.
 - 2.15.1: Regression fixes to conflicted branches, wrong filenames, missing files.
 - 2.15: Added PayPal link; changed icons.
 - 2.14: Added email link.
