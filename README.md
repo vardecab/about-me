@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.15: Added PayPal link; changed icons.
 - 2.14: Added email link.
 - 2.13.2: Updated Stripe link.
 - 2.13.1: Added missing logo to the header on `photos.html`; fixed `og:image` on `photos.html`.
