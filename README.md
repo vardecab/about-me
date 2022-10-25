@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.19: Text updates.
 - 2.18: Text updates.
 - 2.17: Text updates.
 - 2.16.1: Compressed a photo to improve mobile's PageSpeed score.
