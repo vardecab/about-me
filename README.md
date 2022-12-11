@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.21: Text updates.
 - 2.20: Text updates.
 - 2.19: Text updates.
 - 2.18: Text updates.
