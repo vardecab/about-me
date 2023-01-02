@@ -13,6 +13,7 @@
 
 ## Release History
 
+- 2.22: Changes to social links; improved padding for icon in the nav bar; improved position of title in nav bar.
 - 2.21: Text updates.
 - 2.20: Text updates.
 - 2.19: Text updates.

@@ -72,7 +72,8 @@ body {
 	display: inline-block;
 	vertical-align: middle;
 	width: 1.25em;
-	padding-bottom: 0.25em; /** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
+	/* padding-bottom: 0.25em; * NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
+	padding-bottom: 0.5em; /** NOTE: 0.2em for JetBrainsMono, 0.5em for Sweeneey */
 }
 
 .box-text {
@@ -167,7 +168,7 @@ h6 {
 	/* color: black; */
 	/* color: #fff; */
 	color: var(--dark);
-	line-height: 1;
+	line-height: 2; /* NOTE: vertical position of title in nav bar */ 
 	text-decoration: none !important;
 	display: inline-block;
 }
