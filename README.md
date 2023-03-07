@@ -1,5 +1,7 @@
 # My personal website 
 
+![Actively Maintained](https://img.shields.io/badge/Maintenance%20Level-Actively%20Maintained-green.svg)
+
 ## Status 
 
 ![](https://img.shields.io/uptimerobot/status/m790573379-e33750f4cf235edff869bb94)
@@ -7,9 +9,9 @@
 
 ![](https://img.shields.io/uptimerobot/ratio/m790573379-e33750f4cf235edff869bb94)
 
-## PageSpeed Insights
+<!-- ## PageSpeed Insights
 
-![PageSpeed Insights](https://pagespeed-insights.herokuapp.com/?url=https://kuba.rdzak.com)
+![PageSpeed Insights](https://pagespeed-insights.herokuapp.com/?url=https://kuba.rdzak.com) -->
 
 ## Release History
 
