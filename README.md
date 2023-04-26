@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.23.1: Fixed typo.
 - 2.23: Updated numbers and text.
 - 2.22: Changes to social links; improved padding for icon in the nav bar; improved position of title in nav bar.
 - 2.21: Text updates.
