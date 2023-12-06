@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.25: Updated links.
 - 2.24: New job, new photo.
 - 2.23.1: Fixed typo.
 - 2.23: Updated numbers and text.
