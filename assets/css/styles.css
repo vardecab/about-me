@@ -1,3 +1,9 @@
+/* --- hiding content for redirect -- */
+
+* {
+	display: none;
+}
+
 /* -------------- fonts ------------- */
 
 @font-face {

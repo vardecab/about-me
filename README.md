@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.26: Hiding content and redirecting to [Bento](https://bento.me/kubardzak).
 - 2.25: Updated links.
 - 2.24: New job, new photo.
 - 2.23.1: Fixed typo.
