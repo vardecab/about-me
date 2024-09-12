@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.28: Re-added email.
 - 2.27.2: Experimenting with improved `theme-color` for light/dark mode.
 - 2.27.1: Disabled `theme-color`.
 - 2.27: Updated for 2024 (text, numbers, jobs, books); redirect removed.
