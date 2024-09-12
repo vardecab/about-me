@@ -298,7 +298,9 @@ h6 {
 	left: 0;
 	top: 0;
 	right: 0;
-	background: rgba(0, 0, 0, 0.9);
+	/* background: rgba(0, 0, 0, 0.9); */
+	background: var(--dark);
+	opacity: 0.9;	
 }
 
 /* override color so it looks good both on main page and in navbar */
