@@ -1551,7 +1551,20 @@ a.external:after {
 }
 .icon-hamburger:before {
 	content: "\f805";
+	/* color: var(--dark) */
 }
+
+/* @media (prefers-color-scheme: light) {
+	.icon-hamburger {
+		color: var(--dark);
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.icon-hamburger {
+		color: var(--accent);
+	}
+} */
 
 /* -------------- other ------------- */
 

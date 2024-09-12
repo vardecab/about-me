@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.27.1: Disabled theme color.
 - 2.27: Updated for 2024 (text, numbers, jobs, books); redirect removed.
 - 2.26: Hiding content and redirecting to [Bento](https://bento.me/kubardzak).
 - 2.25: Updated links.
