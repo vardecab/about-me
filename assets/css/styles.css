@@ -1,8 +1,8 @@
 /* --- hiding content for redirect -- */
 
-* {
+/* * {
 	display: none;
-}
+} */
 
 /* -------------- fonts ------------- */
 
@@ -1560,6 +1560,11 @@ a {
 	text-decoration-color: var(--accent);
 	text-decoration-thickness: 30%;
 	color: currentColor;
+}
+
+.striked {
+	text-decoration: line-through;
+	text-decoration-color: var(--accent);
 }
 
 .highlight {

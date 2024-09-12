@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     // List of sentences
     var _CONTENT = [
         "an experienced Growth Marketer.",
-        "a data-driven Product Manager.",
+        "a data-driven Product Marketing Manager.",
         "a 5-star Startup Mentor.",
         "an efficient Media Buyer.",
         "a certified Team Manager.",
