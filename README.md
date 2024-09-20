@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.30: Text updates.
 - 2.29: Added some text.
 - 2.28: Re-added email.
 - 2.27.2: Experimenting with improved `theme-color` for light/dark mode.

@@ -65,8 +65,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
     var _CONTENT = [
         "an experienced Growth Marketer.",
         "a data-driven Product Marketing Manager.",
-        "a 5-star Startup Mentor.",
-        "an efficient Media Buyer.",
+        "a Startup Mentor.",
+        // "an efficient Media Buyer.",
         "a certified Team Manager.",
         "a geek with lots of (weird?) hobbies.",
         "a (coding) puzzle solver.",
