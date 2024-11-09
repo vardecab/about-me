@@ -15,6 +15,7 @@
 
 ## Release History
 
+- 2.31: Re-added redirect to [Bento](https://bento.me/kubardzak).
 - 2.30: Text updates.
 - 2.29: Added some text.
 - 2.28: Re-added email.
